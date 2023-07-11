@@ -1,0 +1,40 @@
+# disk usage
+## display the size of each file
+du -a  
+## display the total size
+du -s  
+## check the size of directory
+lv.0 directory  
+$emsp;du -d 0 path  
+# disk format
+## check the format of mounted disks
+df -T  
+## check the format of unmounted disks(check which partitions not been formatted yet)
+parted -l  
+## check the format of all disks
+lsblk -f  
+## check the format of the specified disk
+file -s \<path of dev\>  
+# rename
+cmd \<path of the dev\> \<new_name\>  
+&emsp;cmd
+&emsp;&emsp;for FAT32 = Mtools  
+&emsp;&emsp;for NTFS = ntfsprogs  
+&emsp;&emsp;for ext2, ext3, ext4 = e2label  
+&emsp;&emsp;for exfat = exfatlabel  
+# mount pernanently
+stpe1  
+check UUID of the specified disk  
+&emsp;blkid  
+step2  
+&emsp;vim /etc/fstab  
+step3  
+&emsp;move the cursor to the UUID line, add  
+&emsp;&emsp;'UUID=\<UUID\> \<where to mount\> \<the format of the disk\> defults 0 0'  
+# umount for disk
+umount 'dev';udisksctl power-off --block-device 'dev'  
+# eject
+for non-hard-drive  
+&emsp;eject \<dev\>  
+for hard_drive  
+&emsp;gio mount -t \<dev\>  
