@@ -41,4 +41,11 @@ find / -name 'abc.log'
 find / -name 'ab*'  
 ## match files with names contain 'a' and 'c' from '/'
 find / -name '*1*2*' 
+## move all files in path 0 except A to path 
+grep -v 'A' path0 | xargs mv -t path1  
+&emsp;-v inversion反转  
+## move all files in path 0 except A and B to path 1
+grep -Ev 'A|B' path0 | xargs mv -t path1  
+&emsp;-E extend regular expressions拓展的正则表达式  
+&emsp;-v inversion反转  
 
