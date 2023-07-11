@@ -1,3 +1,10 @@
+# p7zip(recommend)
+## pack
+7z a -t7z -r manager.7z /home/manager/*  
+## unpack
+7z x manager.7z -r -o /home/xx  
+## list
+7z l \<pkg\>  
 # tar
 ## pack
 tar -P -cf .tar path of to_pack  

@@ -31,10 +31,11 @@ step2
 step3  
 &emsp;move the cursor to the UUID line, add  
 &emsp;&emsp;'UUID=\<UUID\> \<where to mount\> \<the format of the disk\> defults 0 0'  
-# umount for disk
-umount 'dev';udisksctl power-off --block-device 'dev'  
+# umount
+for hard_drive:  
+&emsp;udisksctl unmount -b /dev/sdc1  
 # eject
 for non-hard-drive  
 &emsp;eject \<dev\>  
 for hard_drive  
-&emsp;gio mount -t \<dev\>  
+&emsp;udisksctl power-off -b /dev/sdc1  
