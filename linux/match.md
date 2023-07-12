@@ -1,13 +1,13 @@
 ## match lines
 ### from files
 #### the first 100 lines
-cat 'file' | head -n 100  
+head -n 100 \<file\>  
 #### the last 50 lines
-cat 'file' | tail -n 50  
+tail -n 50 \<file\>  
 #### from 75 to the last line
-cat 'file' | tail -n +75  
+tail -n +75 \<file\>  
 #### from 100 to 200
-sed -n '100,200p' {file}  
+sed -n '100,200p' \<file\>  
 #### match lines with 'abc' from contents in file1 and file2
 grep abc./file1 file2  
 #### display number of lines containing 'abc' from file1
@@ -48,4 +48,15 @@ grep -v 'A' path0 | xargs mv -t path1
 grep -Ev 'A|B' path0 | xargs mv -t path1  
 &emsp;-E extend regular expressions拓展的正则表达式  
 &emsp;-v inversion反转  
-
+# command
+## sort
+### ascending sort in bytes  
+du -b | sort -n  
+### descening sort in MB  
+du -m | sort -nr  
+### descening sort in kb  
+du -k | sort -nr  
+### sort the 2nd column of 'test.txt' in ascending order, with space as the delimiter
+sort -t ' ' -k2 test.txt  
+### display the first n lines of 'test.txt'
+head -n 5 test.txt  
