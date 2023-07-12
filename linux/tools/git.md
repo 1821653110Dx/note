@@ -59,4 +59,5 @@ happended when git merge:
 happened when git push:  
 &emsp;git pull \<label of repository\> \<local_branch\> -allow-unrelated-histories  
 &emsp;git push \<label of repository\> \<local_branch\>:\<remote_branch\>  
-
+## fatal: detected dubious ownership in repository at ...
+git config --global --add safe.directory '*'  
