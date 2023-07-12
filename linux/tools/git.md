@@ -27,6 +27,8 @@ git branch -avv
 &emsp;&emsp;column 3 =
 ## set defalut push target
 git push -u <lable of repository> <local branch name>  
+## rename
+git branch -m \<old_name\> \<new_name\>  
 # repository
 ## check repository
 git remote (-v)  

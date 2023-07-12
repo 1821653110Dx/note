@@ -17,7 +17,7 @@ lsblk -f
 file -s \<path of dev\>  
 # rename
 cmd \<path of the dev\> \<new_name\>  
-&emsp;cmd
+&emsp;cmd  
 &emsp;&emsp;for FAT32 = Mtools  
 &emsp;&emsp;for NTFS = ntfsprogs  
 &emsp;&emsp;for ext2, ext3, ext4 = e2label  
