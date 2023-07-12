@@ -29,10 +29,10 @@ check UUID of the specified disk
 step2  
 &emsp;vim /etc/fstab  
 step3  
-&emsp;if dev is only allowed for toot  
-&emsp;&emsp;UUID=\<UUID\> \<where to mount\> \<the format of the disk\> defaults 0 0'  
-&emsp;if dev is only allowed for everyone  
-&emsp;&emsp;UUID=\<UUID\> \<where to mount\> \<the format of the disk\> defaults,users 0 0'  
+&emsp;&emsp;UUID=\<UUID\> \<where to mount\> \<the format of the disk\> defaults 0 0  
+//or//  
+&emsp;&emsp;UUID=\<UUID\> \<where to mount\> \<the format of the disk\> defaults,utf8,uid=\<uid\>,gid=\<gid\> 0 0  
+&emsp;&emsp;&emsp;&emsp;check uid and gid = id \<user\>  
 # umount
 for hard_drive:  
 &emsp;udisksctl unmount -b /dev/sdc1  
