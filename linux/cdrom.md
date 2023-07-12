@@ -16,14 +16,14 @@ mkisofs -print-size -r a/
 ## burn CD  
 ### wodim  (can also be used for burning .iso into DVD, but better used for burning CD)
 wodim -v dev=/dev/cdrom speed=4 -dao -data image.iso  
-&emsp;&emps;wodim = Write Optical Disk Image  
-&emsp;&emps;-v = verbose, display the detailed output  
-&emsp;&emps;-dao = Disc-At-Once  
+&emsp;&emsp;wodim = Write Optical Disk Image  
+&emsp;&emsp;-v = verbose, display the detailed output  
+&emsp;&emsp;-dao = Disc-At-Once  
 ## burn DVD (better used  for burning large amount of data ) 
 ### growisofs  
 burn iso file into dvd  
-&emsp;&emps;growisofs -dvd-compat -Z 'path to dev'='path to .iso'   
+&emsp;&emsp;growisofs -dvd-compat -Z 'path to dev'='path to .iso'   
 burn directoies into dvd  
-&emsp;&emps;growisofs -dev-compat -z 'path to dev' -R -J 'path to directory'  
+&emsp;&emsp;growisofs -dev-compat -z 'path to dev' -R -J 'path to directory'  
 ## xorriso
 xorriso -dev 'path o dev' -map 'path to .iso' 'file name of burned .iso' -volid 'disk label' -close on -commit -eject  
