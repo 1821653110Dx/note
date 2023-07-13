@@ -9,6 +9,10 @@ git remote add \<lable of repository\> \<url\>
 ssh-keygen -t ed25519 -C 'YourEmail'  
 add an ssh key on github  
 git push  
+## cancle commit
+git reset --soft HEAD^  
+## cancle commit and add
+git reset --hard HEAD^  
 # explanation
 if * appears behind the local branch name, that means workspace/cache have changed, use 'git status' to see the changes  
 # show configuration of git
@@ -61,3 +65,14 @@ happened when git push:
 &emsp;git push \<label of repository\> \<local_branch\>:\<remote_branch\>  
 ## fatal: detected dubious ownership in repository at ...
 git config --global --add safe.directory '*'  
+## Your local changes to the following files would be overwritten by merge
+There have been no modifications made locally  
+&emsp;&emsp;git pull  
+There have modifications made locally  
+&emsp;&emsp;you haven't executed 'add .' or else  
+&emsp;&emsp;&emsp;&emsp;git checkout -- \<path have been dispaly on the warnning line\>  
+&emsp;&emsp;&emsp;&emsp;git pull  
+&emsp;&emsp;you have executed  
+&emsp;&emsp;&emsp;&emsp;git reset --hard HEAD^\<path\>  
+&emsp;&emsp;&emsp;&emsp;it checkout -- \<path\>  
+&emsp;&emsp;&emsp;&emsp;git pull  
