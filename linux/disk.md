@@ -1,3 +1,5 @@
+# list partitions
+lsblk -f  
 # disk usage
 ## display the size of each file
 du -a  
@@ -41,3 +43,5 @@ for non-hard-drive
 &emsp;eject \<dev\>  
 for hard_drive  
 &emsp;udisksctl power-off -b /dev/sdc1  
+# change owner
+chown -R user1:group1 \<dev\>  
