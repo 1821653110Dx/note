@@ -31,14 +31,6 @@ Xfce4-manager
 ccsm  
 # check system information
 cat /proc/version  
-# check hardware
-lshw (-short)  
-## show gpu information
-lspci -vnn | grep VGA -A 12  
-### show Nv
-lspci | grep -i nvidia  
-//OR//  
-nvidia-smi  
 # file
 ## batch create批量
 touch test{0001...2000}.txt  
