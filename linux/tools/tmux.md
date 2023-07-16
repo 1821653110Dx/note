@@ -12,7 +12,8 @@ reconnect tmux at -t  <session-name>
 list w  
 create c  
 close &  
-switch  
+switch num  
+move .  
 next n  
 previous p  
 find-window f  
@@ -24,6 +25,8 @@ close x
 division  
 vertical  "  
 horizontal %   
+# respawn
+R
 # else
 enable scrolling mode C b, [  
 quit q  
