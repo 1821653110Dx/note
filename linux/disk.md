@@ -45,3 +45,4 @@ for hard_drive
 &emsp;udisksctl power-off -b /dev/sdc1  
 # change owner
 chown -R user1:group1 \<dev\>  
+
