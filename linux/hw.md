@@ -11,6 +11,6 @@ nvidia-smi
 watch -n 1 nvidia-smi  
 # modify battery configuration
 ## 1st
-cd /sys/class/power_supply/  
+cd /sys/class/power_supply/BAT0  
 ## Stop charging after the battery reaches 80%
 write charge_control_end_threshold 80  
