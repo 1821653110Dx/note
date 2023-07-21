@@ -92,3 +92,52 @@
 美食节 gourmet festival
 中餐烹饪 Chinese cuisine
 四大菜系 four major Chinese cuisine
+粤菜 Cantonese cuisine
+淮扬菜 Huaiyang cuisine
+鲁菜 Shandong cuisine
+川菜 Sichuan cuisine
+八宝饭 eight-treasure rice pudding
+臭豆腐 strong-smelling preserved bean curd
+粉蒸肉 steamed pork with rice flour
+地方风味小吃 local delicacy
+刀工 cutting technique
+熏 smoking
+煨 simmering
+煮 boiling
+烘 baking	
+烤 roasting	
+蒸 steaming
+红烧 braising
+涮羊肉 instant-boiled mutton
+羊肉串小摊 mutton barbecue stall
+佛教 Buddhism
+佛寺 Buddhist temple	
+佛经 Buddhist scriptures		
+道教 Taoism
+道观 Taoist temple	
+道士 Taoist priest
+蛋炒饭 fried rice with egg
+火锅 hot pot
+八仙 the Eight Immortals
+嫦娥 Chang'e
+伏羲 Fu Xi
+福禄寿三星 the three gods of fortune
+共工 Gong Gong
+后羿 Hou Yi
+《孙子兵法》 The Art of War
+《三字经》Three-Character Scriptrues
+旗袍 cheongsam
+中山装 Chinese tunic suit
+唐装 Tang suit
+孔子 Confucius	
+儒教 Confucianism
+儒家文化 Confucian culture
+孔子庙 Confucian Temple
+墨家 Mohism
+法家 Legalism
+《春秋》 The Spring and Autumn Annals
+五经 The Five Classics
+《史记》 Historical Records		
+《诗经》 The Book of Songs
+《书经》 The Book of History
+《易经》 The Book of Changes
