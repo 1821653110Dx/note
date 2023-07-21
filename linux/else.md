@@ -1,3 +1,5 @@
+# Hibernation
+systemctl suspend  
 # excape character
 \b = backward by one character  
 \f = form feed换页  
