@@ -44,3 +44,8 @@ with assurance 充满信心地
 give sb an assurance that 向某人保证  
 of/to no avail 无效  
 avail oneself of 利用  
+in accordance with 依照  
+associate sb with sb 使联想/联系  
+liable for 有义务的
+liable to 有 倾向的
+culminate in/with 最终到达，以 告终
