@@ -49,3 +49,9 @@ associate sb with sb 使联想/联系
 liable for 有义务的
 liable to 有 倾向的
 culminate in/with 最终到达，以 告终
+linger on 继续存留
+be oriented to/toward 确定位置，以 为目的
+orient yourself to 适应，熟悉
+orient yourself 确定方位
+susceptible to 易受影响的
+susceptible of 可以 的
