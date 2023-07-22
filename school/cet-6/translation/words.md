@@ -141,52 +141,101 @@
 《诗经》 The Book of Songs
 《书经》 The Book of History
 《易经》 The Book of Changes
-《礼记》
-四书
-《大学》
-粥
-芋头
-葱油饼
-油条
-豆浆
-馒头
-锅贴
-花卷
-包子
-北京烤鸭
-拉面
-馄饨
-豆腐
-烧饼
-皮蛋
-《中庸》
-《论语》
-《孟子》
-《山海经》
-《本草纲目》
-《资治通鉴》
-《西厢记》
-《西行漫记》
-《三国演义》
-《水浒传》
-《西游记》
-《红楼梦》
-《聊斋志异》
-牌坊
-释迦牟尼
-大雄宝殿
-藏经楼
-素菜馆
-罗汉堂
-观音
-地藏
-四大金刚
-关帝庙
-民间艺术
-高雅艺术
-戏剧艺术
-电影艺术
-六艺：礼，乐，射，御，书，数
-国朦胧诗
-武侠小说
-言情小说
+《礼记》 The Book of Rites
+四书 The Four Books
+《大学》The Great Learning
+粥 porridge
+芋头 taro
+葱油饼 green onion pie
+油条 deep-fried dough sticks
+豆浆 soybean milk
+馒头 steamed bun
+锅贴 pot sticker
+花卷 steamed twisted roll
+包子 steamed stuffed bun
+北京烤鸭 Beijing roast duck
+拉面 stretched nooles
+馄饨 wonton
+豆腐 tofu
+烧饼 clay over rolls
+皮蛋 century egg
+《中庸》 The Doctrine of the Mean
+《论语》 The Analects of Confucius
+《孟子》 The Mencius
+《山海经》 The Classic of Mountains and Rivers
+《本草纲目》 Compendium of Materia Medica
+《资治通鉴》 History as a Mirror
+《西厢记》 The Romance of West Chamber
+《西行漫记》 Red Start Over China
+《三国演义》 The Romance of the Three Kindoms
+《水浒传》Water Margin
+《西游记》 Journey to the West
+《红楼梦》The Story of the Stone
+《聊斋志异》Strange Tales of a Lonely Studio
+牌坊 memorial archway
+释迦牟尼 Sakyamuni
+大雄宝殿 the Great Buddha's Hall
+藏经楼 depositary of Buddhist sutra
+素菜馆 vegeterian restaurant
+罗汉堂 Arhat Hall
+观音 Guanyin
+地藏 God of Earth
+四大金刚 Four Heavenly Guardians
+关帝庙 temple of Lord Guan
+民间艺术 folk art
+高雅艺术 refined art
+戏剧艺术 theatrical art
+电影艺术 film art
+六艺：礼，乐，射，御，书，数 the classical six arts: propriety, music,archery, riding, writting, arithmetic
+国朦胧诗 musty poetry
+武侠小说 martial arts novels
+言情小说 romantic fiction
+八股文 eight-part essay
+五言绝句 five-character quatrain
+七言律诗 seven-character octave
+历史文献 historical document
+年糕 rice cake
+米羹 rice balls
+麻花 fried dough twist
+炒面 chow mein
+叉烧包 steamed bun with roast pork
+黄帝 Yellow Emperor
+夸父 Kua Fu
+女娲 Goddess of Sky-patching
+盘古 Pan Gu
+神农 Patron of Agriculture
+禹 Yu
+祝融 God of Fire
+塔 pagoda
+琉璃塔 glazed pagoda
+舍利塔 stupa
+钟楼 bell tower
+鼓楼 drum tower
+阁 pavilion
+烽火台 beacon tower
+华表 ornamental column
+爱国主义精神 patriotism
+文化产业 cultural industry
+文化事业 cultural undertaking 
+文化交流 cultural exchange
+文化冲突 cultural shock
+乡村文化 rural culture
+民族文化 national culture
+表演艺术 performing art
+文化底蕴 cultural deposit
+华夏祖先 the Chinese ancestor
+同宗同源 be of the same origin
+中国文学 Chinese literature
+中国武术 Kung Fu
+中国书法 Chinese calligraphy
+哲学家 philosopher
+明清两代 the Ming and Qing dynasties
+江南水乡 the south of the lower reaches of the Yangtze River
+水乡景色 riverside scenery
+上海大剧院 Shanghai Grand Theater
+《龙须沟》 Longxu Ditch
+样板戏 model opera
+地雷战 mine warfare
+《贵妃醉酒》 Drunken Concubine
+《霸王别姬》 Farewell to My Concubine
+《荒山泪》  Tears of Huangshan
