@@ -239,97 +239,101 @@
 《贵妃醉酒》 Drunken Concubine
 《霸王别姬》 Farewell to My Concubine
 《荒山泪》  Tears of Huangshan
-越剧
-川剧
-四大发明
-火药
-印刷术
-造纸术
-指南针
-国中国结
-青铜器
-武术门派
-国习武健身
-古代格斗术
-武林高手
-气功
-空手道
-拳击
-击剑
-汉学家
-考古学家
-人类学家
-历史学家
-地理学家
-进化论
-无神论
-宿命论
-启蒙运动
-辩证法
-形而上学
-寺庙
-桂花
-中药
-文明的摇篮
-跆拳道
-柔道
-坚硬光滑的瓷器
-无与伦比的文学创作
-笔画
-圆汉语的四声调
-平声
-上声
-网仄声
-去声
-四合院
-篆刻
-工艺
-手工艺品
-国泥人
-网七十二般变化
-国金箍棒
-国托塔李天王
-五行山
-金
-木
-水
-圆火
-圆土
-都江堰
-河伯
-雷公
-象形文字
-苏绣
-寓言
-圆神话
-网传说
-二公历
-阳历
-国阴历
-国天干
-地支
-闰年
-二十四节气
-国传统节目
-国才子佳人
-中华文明
-中外学者
-修道士
-尼姑
-罗汉
-财神爷
-门神
-玉皇大帝
-炉火神
-土地神
-封神榜
-灶王爷
-药王
-王母娘娘
-齐天大圣
-国花果山
-水帘洞
-调控通货膨胀
-宏观经济调控
-社会主义新农村
-依法
+《群英会》 Gathering of Heroes
+借东风 borrow the East Wind
+越剧 Yue opera
+川剧 Chuan ju
+四大发明 the four great inventions of ancient China
+火药 gunpowder
+印刷术 printing
+造纸术 paper-making technology
+指南针 compass
+中国结 Chinese knot
+青铜器 bronze ware
+武术门派 schools of martial arts
+习武健身 practice martial arts for fitness
+古代格斗术 ancient form of combat
+武林高手 top martial artist
+气功 qigong
+空手道 karate
+拳击 boxing
+击剑 fencing
+汉学家 sinologist
+考古学家 archaeologist
+人类学家 anthropologist
+历史学家 historian
+地理学家 geographer
+进化论 the theory of evolution
+无神论 atheism
+宿命论 determinism
+启蒙运动 Enlightenment
+辩证法 dialectic
+形而上学 metaphysics
+寺庙 temple
+桂花 sweet osmanthus
+中药 TCM
+文明的摇篮 cradle of civilization
+跆拳道 taekwondo
+柔道 judo
+坚硬光滑的瓷器 hard-glazed porcelain
+无与伦比的文学创作 unsurpassed literary creativity
+笔画 stroke
+汉语的四声调 the four tones of Chinese
+平声 level tone
+上声 rising tone
+仄声 falling-rising tone
+去声 falling tone
+四合院 sourtyard
+篆刻 seal cutting
+工艺 workmanship
+手工艺品 handicraft
+泥人 clay figure
+美猴王 Handsome Monkey King
+七十二般变化 seventy-two different forms
+金箍棒 golden cudgel
+弼马温 the Protector of the Horses
+托塔李天王 Heavenly King Li with a Pagoda in Hand
+五行山 Five Elements Mountain
+金 metal
+木 wood
+水 water
+火 fire
+土 earth
+都江堰 Dujiang Weir
+河伯 River Uncle
+雷公 the Thunder God
+象形文字 pictograph
+苏绣 Suzhou embroidery
+寓言 fable
+神话 mythology
+传说 legend
+公历 Gregorian calender
+阳历 solar calender
+阴历 lunar calender
+天干 Heavenly stems
+地支 Earthly Branches
+闰年 leap year
+二十四节气 the twenty-four solar terms
+传统节目 traditional holidays
+才子佳人 gifted scholars and beautiful ladies
+中华文明 Chinese civilizxation
+中外学者 Chinese and overseas scholar
+修道士 monk
+尼姑 nun
+罗汉 arhat
+财神爷 the God of Wealth
+门神 Door Gods
+玉皇大帝 the Jade Emperor
+炉火神 the Fire God
+土地神 Local God of the Land
+封神榜 Granting Titles to Gods
+灶王爷 the Kitchen God
+药王 the King of Medicine
+王母娘娘 the Queen of Heaven
+齐天大圣 the Great Sage Equalling Heaven
+花果山 Mountain of Flowers and Fruits
+水帘洞 Water Curtain Cave
+调控通货膨胀 adjust inflation
+宏观经济调控 macroeconomic regulation
+社会主义新农村 new socialist countryside
+依法 be pursuant to the law
