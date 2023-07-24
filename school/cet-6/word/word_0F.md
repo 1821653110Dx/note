@@ -263,3 +263,53 @@ punctual 准时的
 rail 铁轨，扶手
 ranch 大牧场/农场
 ratify 正式批准
+rebel 反抗（者）
+recede 退去，逐渐减弱
+rectify 纠正
+recur 重现
+reminiscent 怀旧的，使人想起 的
+remnant 残留部分
+repel 鸡腿，驱逐，排斥
+reservoir 水库，蓄水池
+reside 定居
+rim 边
+saddle 鞍，车做
+sarcasm 讽刺
+saturate 浸透
+savage 猛烈的；猛烈抨击
+scarce 缺乏的，稀少的
+scent 气味，香味，香水；察觉
+secular 世俗的
+seduce 引诱
+shortland 速记
+seige 包围
+skyline 轮廓
+slippery 滑的，模棱两可的
+stationery 文具
+stern 船尾；严厉的，严峻的
+stitch 针法；缝
+stout 黑啤酒；肥胖的
+streanmine 简化 来提高效率
+stump 树桩；使为难，做巡回演讲
+subscribe subscription
+substitution 代替
+swamp 沼泽地；使陷入，蜂拥
+symmetry 对称，相似，相等
+symphony 交响乐（团）
+tangle 团；（使）缠结，（使）乱作一团
+temper 脾气，情绪
+temporal 关于时间的，世俗的
+transcript 副本
+transient 短暂的
+transistor 晶体管 
+tumble 跌倒，暴跌
+turbulent 动荡的，狂风大作的
+unilateral 单方面的
+veil 面纱，掩饰
+verdict 裁定
+vicious 也已的，严重的，也裂的
+virgin 处女；未经开发的
+volatil 多变的，易挥发的，急剧波动的
+voucher 代金券，收据
+
+
