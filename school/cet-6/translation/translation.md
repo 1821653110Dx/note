@@ -1,5 +1,7 @@
+# 2023.6(1)
 近年来，越来越多的中国文化产品走向全球市场，日益受到海外消费者的青睐。
-In recent years, an increasing number of Chinese cultural products haved entered the global market, gaining growing popularity ofoverseas customers
+In recent years, an increasing number of Chinese cultural products haved entered the global market, gaining growing popularity of overseas customers
+
 随着中国对外文化贸易的快速发展，
 //随着快速发展of中国对外文化贸易//
 Propelled by the arpid growth of China's foreign cultural trade,

@@ -1,3 +1,4 @@
+# 0
 龙灯舞 drangon lantern dance
 庙会 temple fair
 年夜饭 Lunar New Year reunion dinner
@@ -498,3 +499,15 @@
 流量 flow
 波动 flutucation
 免费品 free goods
+# plus
+文化创新 cultural innovation
+文化保护 cultural preservation
+文化产业发展 the development of culture industry
+文化振兴 cultural revitalization
+文化认知 cultural awarness
+文化产业链 ~ industry chain
+文化创作 ~ creation
+文化软实力 ~ soft power
+文化产业园区 ~ industry park
+传媒产业 media industry
+
