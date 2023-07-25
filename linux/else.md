@@ -1,16 +1,3 @@
-# Hibernation
-systemctl suspend  
-# excape character
-\b = backward by one character  
-\f = form feed换页  
-\n = newline  
-\r = move the cursor to the begining of the line  
-\t = Tab  
-\\ = \  
-\' = '  
-\" = "  
-\? = ?  
-\0 = blank space  
 # GUI
 thunar = super e  
 xdesktop -menu = C Esc  
@@ -26,11 +13,17 @@ add worksapce = M insert
 del wordspace = M delete  
   
 back to desktop = C M d  
-# setting tools
-## basic
+# Hibernation
+systemctl suspend  
+# system setting
+## setting tools
+### basic
 Xfce4-manager  
-## advanced
+### advanced
 ccsm  
+## else
+### change "use 'alt + mouse_1 to move window'" to "use 'super + mouse_2 to move window'"
+设置/窗口管理器微调/辅助功能/用来捕获和移动窗口的快捷键：Alt -> Super  
 # check system information
 cat /proc/version  
 # file
@@ -46,3 +39,15 @@ cat >> test.txt << -EOF
 \> 123  
 \> 345  
 \> -EOF  
+# excape character
+\b = backward by one character  
+\f = form feed换页  
+\n = newline  
+\r = move the cursor to the begining of the line  
+\t = Tab  
+\\ = \  
+\' = '  
+\" = "  
+\? = ?  
+\0 = blank space  
+
