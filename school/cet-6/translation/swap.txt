@@ -1,98 +1,60 @@
-生产力过剩 surplus production capacity
-通车 be open to traffic
-节能 energy conservatiom
-第三产业 tertiary industry
-商业化 commmercialization
-失业 unemployment
-消费方式 pattern of concumption
-过度工业化 over-industrialization
-能源和资源消耗 drain of energy and resources
-提供更多的就业机会 offer more job opportunities
-收支平衡点 break-even point
-预算 budget
-预算约束 budget constraint
-预算线 budget line
-补偿预算线 compensated budget line
-资本 capital
-资本存量 capital stock
-资本产出比率 capital output ratio
-资本主义 capitalism
-需求变化 change in demand
-供给量变化 change in quantity supplied
-供给变化 change in supply
-集体谈判 collective bargaining
-商品 commodity
-商品组合 commodity combination
-国有企业／公共事业单位 state-owned / public enterprise
-寄宿制学校 boarding schools
-远程教育 distance education
-最低生活保障 basic cost of living allowances
-稳健的财政政策 prudent fiscal policy
-所得税 income tax
-期货市场 futures market
-高附加值 high value-added
-残酷的竞争  cut-throat competition
-堵塞漏洞 plug up loopholes
-社会主义市场经济 socialist market economy
-科学发展观 Scientific Outlook on Development
-社会主义和谐社会 harmonious scolialist society
-逆向选择 adverse selection
-资金分配 the allocation of funds
-配置效率 allocative efficiency
-需求价格弹性 the prive elasticity of demand
-平均成本 average cost
-资本平均产量 average product of capital
-劳动平均产量 average product of labor
-平均收益 average revenue
-平均总成本 average total cost
-平均可变成本 average variable cost
-基年 base year
-双边垄断 bilateral monopoly
-收益 benefit
-黑市 black market
-边界点 boundary point
-资本主义经济 capitalist economy
-集体经济 collective economy
-计划经济 planned economy
-管制经济 controlled economy
-农村经济 rural economy
-自由经济 liebral economy
-混合经济 mixed economy
-政治经济学 political economics
-保护主义 protectionism
-初级成分 primary sector
-私营成分 private sector
-公共成分 public sector
-经济渠道 economic channel
-经济平衡 economic balance
-经济波动 economic fluctuation
-约束 constraint
-消费者 consumer
-消费者行为 consumer behaviour
-消费者选择 consumer choice
-消费者均衡 consumer equilibrium
-消费者优化 consumer optimization
-消费者偏好 consumer preference
-消费者剩余 consumer surplus
-消费者理论 consumer theory
-消费 consumption
-消费组合 consumption combination
-收入消费曲线 income consumption curve
-消费可能性前沿 concumption possibility frontier
-消费集 consumption set
-消费空间 consumtion space
-经济衰退 economic depression
-经济稳定 economic stability
-经济政策 economic policy
-经济复苏 economic recovery
-控股公司 holding company
-增长率 rate of growth
-经济趋势 economeic trend
-经济形势 economic situation
-生活标准 standard of living
-购买力 purchasing power
-短缺 scarcity
-停滞 stagnation
-欠发达 underdevelopment
-欠发达的 underdeveloped
-发展中的 developing
+公用财产
+比较静态分析
+补偿需求函数
+补偿原则
+收入补偿变量
+竞争
+竞争性市场
+互补品
+完整信息
+完整性
+交换的最优条件
+规模报酬不变
+连续性
+连续函数
+合同曲线
+重负损失
+成本递减产业
+规模报酬递减
+需求曲线
+需求弹性
+需求函数
+需求价格
+折旧
+差分方程
+微分方程
+差异商品
+边际收益递减
+指数
+产业均衡
+劣品
+拐点
+信息成本
+创新
+制度经济学
+保险
+利息
+利率
+投资
+劳动需求
+劳动供给
+劳动价值论
+工会
+国边际效用递减
+直接税
+国间接税
+固折扣
+分配
+劳动分工
+耐用品
+经济成本
+经济效率
+经济物品
+经济人
+经济模型
+经济利润
+生产的经济区域
+固定投入
+流量
+波动
+免费品
