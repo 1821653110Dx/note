@@ -1,60 +1,63 @@
-公用财产
-比较静态分析
-补偿需求函数
-补偿原则
-收入补偿变量
-竞争
-竞争性市场
-互补品
-完整信息
-完整性
-交换的最优条件
-规模报酬不变
-连续性
-连续函数
-合同曲线
-重负损失
-成本递减产业
-规模报酬递减
-需求曲线
-需求弹性
-需求函数
-需求价格
-折旧
-差分方程
-微分方程
-差异商品
-边际收益递减
-指数
-产业均衡
-劣品
-拐点
-信息成本
-创新
-制度经济学
-保险
-利息
-利率
-投资
-劳动需求
-劳动供给
-劳动价值论
-工会
-国边际效用递减
-直接税
-国间接税
-固折扣
-分配
-劳动分工
-耐用品
-经济成本
-经济效率
-经济物品
-经济人
-经济模型
-经济利润
-生产的经济区域
-固定投入
-流量
-波动
-免费品
+商品市场 commodity market
+商品空间 commodity space
+公用财产 common property
+比较静态分析 comparative static analysis
+补偿需求函数 compensated demand function
+补偿原则 compensation principle
+收入补偿变量 compensating variation in income
+竞争 competition
+竞争性市场 competitive market
+互补品 complement goods
+完整信息 complete information
+完整性 completeness
+交换的最优条件 condition for efficiency in exchange
+规模报酬不变 constant returns for scale
+连续性 continuity
+连续函数 continuous function
+合同曲线 contract curve
+重负损失 dead-eights loss
+成本递减产业 decreasing cost industry
+规模报酬递减 decreasing returns for scale
+需求曲线 demand curve
+需求弹性 demand elasticity
+需求函数 demand function
+需求价格 demand price
+折旧 depreciation
+差分方程 difference equation
+微分方程 differential equation
+差异商品 defferentiated goods
+边际收益递减 diminishing marginal returns
+指数 index number
+产业均衡 industry equilibrium
+劣品 inferior goods
+拐点 inflection point
+信息成本 information cost
+创新 innovation
+制度经济学 institutional economics
+保险 insurance
+利息 interest
+利率 interest rate
+投资 investment
+劳动需求 labor demand
+劳动供给 labor supply
+劳动价值论 theory of labor value
+工会 labor union
+边际效用递减 diminishing marginal utility
+直接法 direct approach
+直接税 direct tax
+间接税 indirect tax
+折扣 discount
+分配 distribution
+劳动分工 division of labor
+耐用品 durable goods
+经济成本 economic cost
+经济效率 economic efficiency
+经济物品 economic goods
+经济人 economic man
+经济模型 economic mode
+经济利润 economic profit
+生产的经济区域 economic region of production
+固定投入 fixed input
+流量 flow
+波动 flutucation
+免费品 free goods
