@@ -1,3 +1,9 @@
+# Editor Type
+Timeline/Dope Sheet = S F12  
+Graph Editor =  S F6  
+  
+Python Console = S F4  
+Text Editor = S F11  
 # mesh
 loop cut = C r  
 snap = S tab  
