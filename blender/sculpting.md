@@ -7,4 +7,7 @@ smoothen = S
 reverse operation = C  
 change object to sculpt = M q  
 
+## basic
+### remash
+bpy.context.object.data.remesh_voxel_size =  
 
