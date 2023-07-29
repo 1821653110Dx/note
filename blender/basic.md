@@ -24,7 +24,7 @@ option,origin
 bpy.context.scene.tool_settings.use_transform_data_origin = true  
 ## 3d cursor
 set to origin = S c  
-# relationships
+# relationship	s
 sperate = p  
 join = C j  
 clear parent = M p  
@@ -48,22 +48,27 @@ quaternion rotation(tilt forward or backward) = w
 # else
 mirror copy C m  
 make the face horizontal = s z 0  
-
+repeat = S r  
 # bpy
 ## Editor Type
 Info = bpy.context.area.ui_type = 'INFO'  
-## add
-Plain  
+## option
+add  
 ```python
-bpy.ops.mesh.primitive_plane_add(size=2, enter_editmode=False, align='WORLD', location=(0, 0, 0), scale=(1, 1, 1))  
-```
-light  
-```python
-Point
-	bpy.ops.object.light_add(type='POINT', radius=1, align='WORLD', location=(0, 0, 0), scale=(1, 1, 1))
+Plain
+	bpy.ops.mesh.primitive_plane_add(size=2, enter_editmode=False, align='WORLD', location=(0, 0, 0), scale=(1, 1, 1))  
 
+light:
+(1)Point
+	bpy.ops.object.light_add(type='POINT', radius=1, align='WORLD', location=(0, 0, 0), scale=(1, 1, 1))
 ```
-## mesh
+## data
+dimensions  
+```python
+bpy.data.objects['name'].dimensions = (1, 1, 1)
+bpy.data.objects['name'].dimensions[0] = 1
+```
+## tool
 snap  
 ``` python
 enable
@@ -81,8 +86,6 @@ add
 width
 	bpy.context.object.modifiers["Bevel"].width = 0.35
 
-segments
-	bpy.context.object.modifiers["Bevel"].width = 0.35
 ```
 ## shade
 shade smooth  

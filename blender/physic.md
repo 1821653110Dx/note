@@ -3,8 +3,14 @@
 
 # bpy
 ## rigid body
-settings  
+copy properties  
 ```python
+from active 
+	bpy.ops.rigidbody.object_settings_copy()
+```
+  
+settings  
+``b`python
 mass(weight)
 	bpy.context.object.rigid_body.mass = 
 animated
