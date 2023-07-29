@@ -1,5 +1,7 @@
 # rigid body
-
+# explanation
+setting.animated
+&emsp;&emsp;when not enabled, gravitational acceleration will be obtained  
 
 # bpy
 ## rigid body
