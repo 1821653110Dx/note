@@ -1344,7 +1344,7 @@ thrift 节约
 thrill 兴奋
 thrive 兴旺
 throne 宝座，王位，王权
-throughout 遍及，始终
+throughout 遍及，自始至终
 thrust 挤，推，戳，刺
 thumb 拇指
 tick 记号，嘀嗒声
