@@ -130,6 +130,7 @@ select material
 	bpy.context.object.active_material_index = 0
 
 properties
+```
 # Editor Type
 Timeline/Dope Sheet = S F12  
 Graph Editor =  S F6  
@@ -262,6 +263,7 @@ Shape:
 	bpy.context.object.rigid_body.collision_shape = 'CONVEX_HULL'
 (2) box
 	~ = 'BOX'
+```
 # rigid body
 
 
