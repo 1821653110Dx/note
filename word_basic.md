@@ -13,4 +13,19 @@ mend 修理
 moral 道德（的）
 niece 侄女
 pale 苍白的
+passage 通道
+pond 池塘
+progress 进步
+recite 列举
+refrigerator 冰箱，冷藏室
+ripe 成熟的
+rope 绳
+rubber 橡胶（的）
+shelf 架子
+soil 土壤
+tape 胶带
+towel 毛巾
+tractor 拖拉机
+weekday 工作日
+wheat 小麦
 
