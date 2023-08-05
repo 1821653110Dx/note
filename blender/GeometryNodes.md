@@ -1,4 +1,4 @@
 # short cuts
 ```txt
-hide the effect = m
+enable/disable = m
 ```
