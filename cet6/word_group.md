@@ -169,3 +169,94 @@ entitle sb to sth 是某人有权享受
 
 in error = by mistake
 amend one's error 改过自新
+
+make a proposal of marriage 求婚
+offer proposals for/of 对 提建议
+
+exploit every opportunity 利用每一个机会
+
+do the honour(s) 尽地主之谊
+on/upon one's hono(u)r 以名誉担保
+
+impress sb with 给某人留下 的影响
+impress sth on/upon one's mind 把某事印在脑子里
+be under the impression that 以为
+
+on impulse 一时冲动
+have an irresistible impulse to do sth 忍不住做某事
+
+be a match for 可以和 相匹配
+to strike a match 划火柴
+
+owe obligations to = be under obligations to 对 承担义务
+be obliged to do sth 被迫做某事
+be obliged to sb for sth 因 感激某人
+
+by occasion of 由于
+
+reconcile with 使 与 和解
+reconcile oneself to 使 接受
+
+resign one's position 辞去职务
+resign oneselft to one's fate 听天由命
+resign oneself to extinction 坐以待毙
+
+shrink from doing 不敢做
+shrink away 退缩；衰退
+shrink back 退缩，畏缩，害怕
+
+out of spite 为出气
+
+on the spot 在场
+a scenic spot 风景圣地
+a historic spot 古迹
+
+submit to 服从；将 提交给
+
+be absorbed in 全神贯注于
+absorb sb's attention 吸引某人的注意
+
+let alone 更别提
+
+ask for comments 征求意见
+make comments on sth 评论某事
+
+compensate for 弥补
+
+comprehensive knowledge 渊博的知识
+comprehensive mind 宽大的心胸
+be comprehensive of 包含
+
+in confirmation of 以证实
+full confirmation 完全确认
+
+deceive sb into doing sth 骗某人去做某事
+be deceived in sb 看错某人
+
+enroll sb in （使）某人加入，注册，登记
+enroll sb as 某人以某身份加入，注册，登记
+
+in excess of 超过
+to excess 过量
+an excess of expenditure over income 支出超过收入
+
+gamble away 输光
+take a gamble 冒风险
+gamble on 对 打赌
+
+be instinct 处于本能
+on instinct 凭直觉
+
+be located in = be situated in = lie in
+
+come/go into operation 实行，生效
+in operation 工作中，运转着，生效，实施
+
+at one's option 随意
+leave to one's option 任意选择
+
+develop originality 培养创意
+
+be overcome with liquor 喝醉
+
+be particular to 为 所特有
