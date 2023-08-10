@@ -475,3 +475,110 @@ prevail in/among 流行于
 push around 摆布
 push on 匆匆向前，继续前进
 when push comes to shove 在紧要关头
+
+in the raw 处于自然状态的；裸体的
+a raw wound 刺痛的伤口
+
+cling to = stick to 黏附；坚持
+
+be beyond restraint 不能抑制
+in restraint of 限制，约束
+
+rival sb 与某人竞争
+whithout a rival 无可匹敌
+
+rope in 说服
+on the ropes 濒临崩溃
+the end of (one's) rope 忍无可忍
+
+be the ruin of 成为毁灭的原因
+bring ruin upon oneself 自取灭亡
+fall into ruin 破败不堪
+
+for the sake of 为了 起见
+for any sake 无论如何
+without sake 无缘无故
+
+in sequence of 按顺序
+
+steer clear of 避开，绕开
+steer by/past 避开，绕过
+steer for 向 驶去
+
+have a stroke 中风
+at a/one stoke 一击，一下子
+
+a succession of 一连串的
+in succession 连续地
+
+suck knowledge into ne's mind
+
+
+tackle sb about/over sth 为某事与某人交涉
+tackle to 劲头十足地开始工作
+
+in view of 考虑到
+with a view to 为了
+
+an abundance of 许多
+in abundance 丰富，充足
+
+an appendix to the book 该书的附录
+have one's appendix out 切除阑尾
+
+a batch of 一批/组/群
+batch production 批量生产
+
+bias against 偏见
+bias toward 偏爱
+
+in a blaze 燃烧起来
+blaze a trail 作先导
+
+take a bribe 受贿
+offer a bribe 行贿
+
+in bud 含苞待放
+in the bud 未成熟/尚在发展的状态
+
+government bulletin 政府公报
+news bulletin 新闻公报
+trade bulletin 行业/贸易公报
+
+carve out of/from 用 雕出
+carve into 雕成
+
+take caution against 提防
+caution sb against doing sth 警告别人别做某事
+
+slasp hands 紧握，互相结合，结盟
+clasp one's hands 双手十指交叉紧握
+
+come to/reach the climax 达到高潮
+at the climax of 处于 的顶峰
+
+confer sth on sb 将某物授予某人
+confer with sb on/about sth 同某人协商某事
+
+closet information 机密消息
+closet consultation 秘密会议
+cold closet 冷藏室
+water closet 厕所（WC）
+
+in sb's clutches 在某人的掌控中
+clutch at sth 企图抓住某物
+
+contend for 争取
+contend with 对付
+have much to contend with 有不少困难尚待克服
+
+couch in 用 表达
+
+from the cradle to the grave 从生到死
+in the cradle 在幼年时期，在最初的时候
+
+be detached from 从 拆下
+be attached to 附属于
+
+differentiate from 看出 的不同
+differentiate between and 区别对待
