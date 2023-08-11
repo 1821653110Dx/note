@@ -582,3 +582,124 @@ be attached to 附属于
 
 differentiate from 看出 的不同
 differentiate between and 区别对待
+stand on one's dignity 保持自己的尊严
+beneath one's dignity 不合身份
+
+discriminate against 歧视，区别对待
+discriminate between and 区别 与
+discriminate from 把 把 从 中区别开来
+
+send by dispatch 把 作快件发送
+with dispatch 迅速地
+
+take drastic meastures 采取果断措施/激烈手段
+a drastic debate 激烈的辩论
+make drastic change 做彻底改变
+
+escort sb home 陪 回家
+under the escort of 在 的护送下
+
+live in exile 过流亡生活
+exile oneself to 背井离乡去
+
+lare out 突然闪亮/发怒
+flare up 突然烧起来/发怒
+
+flatter sb on/about sth 奉承某人的某物
+flatter oneself 自以为是
+
+fling oneself into 投身于
+fling oneself at sb 扑向某人
+have a fling 纵情欢乐
+
+fall into a flutter 陷于极度紧张
+in a flutter 心绪不宁
+
+foster father/mother 养父/母
+foster son/daughter 养子/女
+
+gasp at 对 大吃一惊
+gasp out 上气不接下气地说
+
+incorporate with 与 合并
+incorporate in/into 把 吸入/并入
+
+inject into sb 把 注射给某人
+inject sb with 给某人注射
+
+marshal arguments 整理论据
+marshal soliders 集结兵力
+
+menace with 使 受到 的威胁
+be menaced with 有 的危险
+
+make mock of mock at 嘲弄某人/某事
+
+monopoly bureau 专卖局
+monopoly right 专卖权
+monopoly of sales 销售专卖
+
+in mortgage 在抵押中
+on mortgage 以抵押方式
+place a mortgage on 以 抵押
+
+a nomial check 例行检查
+nominal chairman 名义主席
+
+on/under one's oath 发誓
+
+peg away at 坚持不懈地做
+peg sb down 约束某人的行动
+
+make a plea for 恳求
+on the plea with 以 为借口
+
+plead against 反驳；劝人不要
+plead with 向 恳求
+
+poke about/around 搜索/探问
+poke fun at 拿 开玩笑；取笑
+poke one's nose into 探问；干预
+
+at a premium 以高价；奇缺的
+put/place a premium on 高度评价，重视
+
+be reckless of expenditure 乱花钱
+be reckless of the consequences 毫不顾及后果
+
+chief referee 主裁判
+
+resent doing sth 对某事感到气愤
+bitterly resent 十分讨厌
+
+give/make a salute 行礼
+take the salute 还礼
+salute with eyes/rifle/the hand 行注目/持枪/举手礼
+stand at (the) salute 立正敬礼
+
+be off the scent 失去线索，迷失方向
+have no scent for 对 不敏感
+
+smuggle in 偷运进来
+sumggle out 私运出去
+smuggled goods 走私货物
+
+on the sneak 偷偷地，秘密地
+sneak away/off/out 溜掉，悄悄离开
+
+stay from/off the right path 偏离正道
+stay far from 远离
+
+bear testimony to 为 作证
+call sb in testimony 传 某人作证
+produce testimony to/of 提出 的证据
+
+trifle with 玩弄，轻视
+a trifle 有点儿
+
+tuck away 把 藏起来；大吃
+tuck in/up 给 盖好被子；把 塞好
+
+give a tug 猛拉，用力拖
+tug of war 拔河
+have a great tug to persuade sb 费劲口舌说服某人
