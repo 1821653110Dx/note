@@ -10,6 +10,15 @@ print(10 / 3)	// 10 / 3 = float
 print(10 // 3)	// 10 //3 = int
 print(10 % 3)	// 10 % 3 = 10 modulo余 3
 print(10 ** 3)	// 10 ** 3 = 10^3
+
+print(round(2.9))	// round() = round off to the nearest integer四舍五入
+print(abs(-2.9))
+```
+# math module
+```python
+import math
+
+print(math.ceil(2.2))	// math.ceil(2.2) = return the smallest integer >= 2.2
 ```
 
 # string
