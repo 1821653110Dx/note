@@ -52,3 +52,33 @@ It's good_credit
 
 if not student and does (high_income or good_credit), then print 'Eligible'; Otherwise, print 'Not eligible'
 ```
+# Chaining Comparison Operators链接比较运算符
+```python
+age = 22
+if 18 <= age  < 65 :
+	print('Eligible')
+```
+# For Loops
+```python
+for number in range(3) : 	// run 3 times
+	print("Attempt", number + 1, (number + 1) * '·')
+```
+```python
+for number in range(1, 4) :	 // run 4-1 times
+	print("Attempt", number + 1, (number + 1) * '·')
+```
+```python
+for number in range(1, 10, 2) :		 // number = [1, 3, 5, 7, 9], run 5 times
+	print("Attempt", number + 1, (number + 1) * '·')
+```
+# For..Else
+```python
+successful = False	// does successful
+for number in range(3) :	// number = [0, 1, 2] ,run 3 times	
+	print('Attempt')	
+	if successful :
+		print('successful')
+		break	// end this If code block
+	else :
+		print("Attempt 3 times and failed")	
+```
