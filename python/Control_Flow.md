@@ -82,3 +82,41 @@ for number in range(3) :	// number = [0, 1, 2] ,run 3 times
 	else :
 		print("Attempt 3 times and failed")	
 ```
+# Nested Loops
+```python
+for x in range(5) :
+	for  y in range(3) :
+		print(f"({x}, {y})")
+```
+# Literables可数的
+```python
+for x in 'Python' :	// x = ['P', 'y', 't', 'h', 'o', 'n'], run the following 6 times
+	print(x)
+```
+```python
+for x in [1, ,2 ,3, 4] : 	// x = [1, 2, 3, 4], run the following 4 times
+	print(x)
+```
+# While Loops
+```python
+number = 100
+
+while number > 0 : 	// while number not > 0 OR run 'break', the loop ends
+	print(number)
+	number //= 2 
+```	
+```python
+command = ''	// 'command' is empty
+
+while command.lower() != 'quit' :	// while the lowercased command‘ value not != 'quite' OR run 'break', the loop ends
+	command = input('>')	// print >, command = User Input
+	print('ECHO', command)	// print ECHO the value of command
+```
+# Infinite Loops
+```python
+while True :	// run 'break', the loop ends
+	command = input('>')
+	print('ECHO', command)
+	if command.lower() = 'quit' :
+		break	// break the loop
+```
