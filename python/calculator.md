@@ -83,6 +83,28 @@ Usage: thingy [OPTIONS]
 >>> b.append[216]	# append 216 to b
 [1, 8, 27, 64, 125, 216]
 
+>>> c = ['a', 'b', 'c', 'd', 'e', 'f', 'g']
+>>> len(c) # the number of elements
+>>> 7
+>>> c[2:5] = ['C', 'D', 'E'] # replace
+>>> c
+['a', 'b', 'C', 'D', 'E', 'f', 'g']
+>>> c[2:5] = [] # remove
+>>> c
+['a', 'b', 'f', 'g']
+>>> c[:] = [] # remove all
+>>> c
+[]
+
+>>> x_1 = ['a', 'b', 'c']
+>>> x_2 = ['c', 'd', 'e']
+>>> x = [x_1, x_2]
+>>> x
+[['a', 'b', 'c'],['c', 'd', 'e']]
+>>> x[0]
+['a', 'b', 'c']
+>>> x[0][1]
+'b'
 ```
 
 
