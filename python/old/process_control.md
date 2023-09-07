@@ -13,3 +13,11 @@ else :
 	print('More')
 
 ```
+# for
+```python
+words = ['cat', 'window', 'defenestrate']
+
+for w in words :	# run the cycle 3 times
+	print(w, len(w))
+
+```
