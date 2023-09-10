@@ -46,3 +46,16 @@ def save_user(**user) : 	// define a function called save_user(**user), argument
 
 save_user(id=1, name='John', age=22) 
 ```
+# exercise
+```python
+def fizz_buzz(input) :
+	if (input % 3 == 0) and (input %5 == 0) :	// multiple conditions should be set first
+		return "FizzBuzz"
+	if input % 3 == 0 :	// if input can be evenly divided by 3, then 
+		return "Fizz"	// fizz_buzz equals "FIzz"
+	if input % 5 == 0 :
+		return "Buzz"
+	return input	// else, fizz_buzz equals input
+
+print(fizz_buzz(5))
+```

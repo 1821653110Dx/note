@@ -22,16 +22,6 @@ print(math.ceil(2.2))	// math.ceil(2.2) = return the smallest integer >= 2.2
 ```
 
 # string
-```python
-course_name = 'Python Programming'
-
-print(len(course))
-print(course[0])
-print(course[-1])	// course[-1]: 1st character at the end of the string
-print(course[0:3])	// course[0:3]: the number 0 character to the 2nd character
-print(course[0:])	// course[0:]: the number 0 character to the last character
-print(course[:3])	// course[:3]: the first character to the 2nd character
-```
 ## formated string
 ```python
 first = 'mosh'
