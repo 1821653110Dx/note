@@ -14,11 +14,11 @@ print(len(chars))	// print the length of list chars; print the number of elments
 letters = ['a', 'b', 'c', 'd']
 letters[0] = "A" 	// exchange letters[0] with A 
 
-print(letters[0])	// print the position 0+1 item of letters
+print(letters[0])	// print the position 0 item of letters
 print(letters[-1])	// print the 1st-last item of letters
 print(letters[: 3])	// print the first 3 items of letters
-print(letters[1:3])	// print items from position 1+1 to position 3
-print(letters[1:-1])	// print items from position 1+1 to 2nd-last
+print(letters[1:3])	// print items from position 1 to position 3-1
+print(letters[1:-1])	// print items from position 1 to position -1-1(2nd-last)
 ```
 ```python
 numbers = list(range(20))
@@ -51,4 +51,40 @@ first, *other, last = numbers	// first = numbers[0]
 
 print(first, last)
 print(other)
+```
+# Looping over Lists
+```python
+letters = ['a', 'b', 'c']
+
+for index, letter in enumerate(letters) :	// index = [0, 1, 2], letter = ['a', 'b', 'c'] 
+	print(letter)	// print all index and letter
+```
+# Adding/Removing items
+```python
+letters = ['a', 'b', 'c']
+
+# Add
+letters.append('d')	// add a item at the end
+letters.insert(0,'-')	// insert - at position 0+1
+
+# Remove a item
+letters.pop()	// remove the item at the end of the list
+letters.pop(0)	// remove the item at position 0+1
+letters.remove('b')	// remove the first occurence of b
+
+# remove a range of items
+del letters[0:3]	// delete the items from index 0 to index 3-1
+
+# remove all the items
+letters.clear()
+```
+# Finding Items
+```python
+letters = ['a', 'b', 'c']
+
+print(letters.count('d'))	// letters.count('d') = the number of occurances of d in letters
+
+if 'd' in letters :	// if d exists in letters, then
+	print(letters.index('a'))	// letters.index('a') = the index of a
+
 ```
