@@ -88,3 +88,26 @@ if 'd' in letters :	// if d exists in letters, then
 	print(letters.index('a'))	// letters.index('a') = the index of a
 
 ```
+# Sorting Lists
+## basic
+```python
+numbers = [3, 51, 2, 8, 6]
+
+numbers.sort() // sort numbers in ascending order升序, numbers will be changed
+numbers.sort(reverse=True)	// sort numbers in descending order, numbers will be changed
+sorted(numbers)		// sorted numbers in ascending order, numbers will not be changed
+sorted(numbers, reverse=True)
+```
+## topple
+```python
+items = [
+	('product1', 10),
+	('product2', 9),
+	('product3', 12),
+	]
+
+
+items.sort(key=lambda item: item[1])	// sorted items in ascending order by item[1], item[1]
+
+print(items)
+```
