@@ -1,22 +1,4 @@
-# try 1st time
-## shortest example
-### en latex
-```tex
-\documentclass{article}
-
-\begin{document}
-"Hello World!" from  \LaTeX.
-\end{document}
-```
-### cn latex
-```tex
-\documentclass{ctexart}
-
-\begin{document}
-“你好，世界”，来自\LaTeX{}的问候！
-\end{document}
-```
-## compile
+# compile
 xlatex file  
 # source code structure
 ```tex
@@ -68,3 +50,33 @@ draft, final	// set draft mode or final mode
 		// final mode : won't prompt for提示 line overflow	
 	
 ```
+## Macros
+### use macro packages  
+> format
+```tex
+\usepackage[options]{package_name}
+```
+> example
+```tex
+\usepackage{tabularx, makecell, mu}
+```
+# organization of documents
+## insert a file at a new page
+### format
+```tex
+\include{filename}
+```
+### instances
+```tex
+\include{file}
+
+\include{chapters/file}		// relative path
+
+\include{/home/Bob/file}	// absolute path
+```
+## insert a file at current page
+### format
+```tex
+\input{filename}
+```
+
