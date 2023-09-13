@@ -111,3 +111,42 @@ items.sort(key=lambda item: item[1])	// sorted items in ascending order by item[
 
 print(items)
 ```
+# Map Function
+```python
+items = [
+	('product1', 10),
+	('product2', 9),
+	('product3', 12),
+	]
+
+x = map(lambda item: item[1], items)	// topple item[1] = column 1 of topple 'items', topple x = item[1]
+
+for item in x : 	// list item = the value of topple x
+	print(item)	// print every item of list 'item'
+```
+```python
+items = [
+	('product1', 10),
+	('product2', 9),
+	('product3', 12),
+	]
+
+prices = list(map(lambda item: item[1], items))		// topple item[1] = column 1 of topple 'items', prices = a list that contains the items of topple item[1]
+
+print(prices)
+```
+# Filter Function
+```python
+items = [
+	('product1', 10),
+	('product2', 9),
+	('product3', 12),
+	]
+
+filtered = list(filter(lambda item: item[1] >= 10, items))	// topple item[1] = all items that >=10 in column 1 of toople 'items', x = a list that contains the items of topple item[1]
+
+print(filtered)
+
+
+
+```
