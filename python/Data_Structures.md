@@ -119,9 +119,9 @@ items = [
 	('product3', 12),
 	]
 
-x = map(lambda item: item[1], items)	// topple item[1] = column 1 of topple 'items', topple x = item[1]
+x = map(lambda item: item[1], items)	// x = map映射 containing column 1 of litems
 
-for item in x : 	// list item = the value of topple x
+for item in x : 	// item = a list, values of which = map x
 	print(item)	// print every item of list 'item'
 ```
 ```python
@@ -131,7 +131,7 @@ items = [
 	('product3', 12),
 	]
 
-prices = list(map(lambda item: item[1], items))		// topple item[1] = column 1 of topple 'items', prices = a list that contains the items of topple item[1]
+prices = list(map(lambda item: item[1], items))		// prices = a list, value of which = map containing column 1 of items
 
 print(prices)
 ```
@@ -143,10 +143,29 @@ items = [
 	('product3', 12),
 	]
 
-filtered = list(filter(lambda item: item[1] >= 10, items))	// topple item[1] = all items that >=10 in column 1 of toople 'items', x = a list that contains the items of topple item[1]
+filtered = list(filter(lambda item: item[1] >= 10, items))	// filtered = a list, value of which = map containing column 1 of items
 
 print(filtered)
+```
+# List Comprehension
+```python
+items = [
+	('product1', 10),
+	('product2', 9),
+	('product3', 12),
+	]
 
+prices = [item[1] for item in items]	// prices = a list containing column  1 of topple items
 
+filtered = [item[1] for item in items if item[1] >= 10]	// filtered = a list containg all items >= 10 of column 1 of topple items
+```
+# zip function
+```python
+list1 = [1, 2, 3]
+list2 = [10, 10, 10]
+
+print(list(zip(list1, list2, 'abc')))	// print a list with column 0, column 1, column 2 respectively = list1, list2, ['a', 'b', 'c']
+
+zip(list1, list2)
 
 ```
