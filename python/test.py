@@ -1,8 +1,6 @@
-items = [
-	('product1', 10),
-	('product2', 9),
-	('product3', 12),
-	]
+import matplotlib.pyplot as plt
+import numpy as np
 
-filtered = [item[1] for item in items if item[1] >= 10]
-print(filtered)
+x = np.linspace(0, 10, 30)
+
+plt.plot(x, np.sin(x))
