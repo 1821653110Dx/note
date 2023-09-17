@@ -146,3 +146,49 @@
 
 \end{document}
 ```
+# list
+- 1.
+```tex
+	\begin{enumerate}
+    		\item 这是第一点；
+    		\item 这是第二点；
+   		\item 这是第三点。
+	\end{enumerate}
+```
+
+- 2.
+```tex
+	\begin{enumerate}
+    		\item[(1)] 这是第一点；
+    		\item[(2)] 这是第二点；
+   		\item[(3)] 这是第三点。
+	\end{enumerate}
+
+```
+# page
+to define page size, add the following code before main txt
+```tex
+\usepackage{geometry}
+\geometry{left=2.54cm, right=2.54cm, top=3.18cm, bottom=3.18cm}		% page left margin页面左边距 = 2.54cm, page right margin = 2.54cm, page top margin = 3.18cm, page bottom margin = 3.18cm
+\linespread{1.5}	% line space行距 = 1.5 times
+```
+# page number
+## set page number type as 'lowercase roman'
+```tex
+\pagenumbering{roman}
+```
+## set page number begin with 0
+```tex
+\setcounter{page}{0}
+```
+# equation
+- in line
+```tex
+	$\frac{1}{2}$
+```
+- interline
+```tex
+	$$
+	\frac{1}{2}
+	$$
+```
