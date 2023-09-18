@@ -167,5 +167,25 @@ list2 = [10, 10, 10]
 print(list(zip(list1, list2, 'abc')))	// print a list with column 0, column 1, column 2 respectively = list1, list2, ['a', 'b', 'c']
 
 zip(list1, list2)
+```
+# Stacks
+```python
+browsing_session = []
+browsing_session.append(1)	// append '1' at the end of list browsing_session = append 'a' on the top of stack browsing_session
+browsing_session.pop()		// remove item at the end of list browsing_session = remove item on the top of stack browsing_session
+browsing_session[-1]	// git the item on the top of browsing_session
+if not browsing_session :	// if empty for stack browsing_session
+	print('empty')
+```
+# Queues
+```python
+from collections import deque	// for deque, every item is continuous in memory; for list, every item is not continuous in memory
 
+queue = deque([])	// queue = an empty deque
+queue.append(1)		// append '1' at the end of queue
+queue.append(2)
+queue.append(3)
+queue.popleft()		// remove item at position 0
+if not queue :
+	print(queue)
 ```
