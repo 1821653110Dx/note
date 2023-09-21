@@ -226,3 +226,19 @@ number.append(0)	# for array, the type of the item you append must be the same a
 number.pop()
 number[0] = 'a'		# for array, when metting this situdation, the type of the item before '=' must be the same as the type of the item after '='
 ```
+# Sets
+ we can not fetch the items of a set, so we can't write the following code :  
+ 	print(set[0])
+```python
+numbers = [1, 1, 2, 3, 4]
+first = set(numbers)		# 'first' = a set equivalent to 'numbers' with no duplicates 重复的元素
+second = {1, 5}		# set 'second' = {1, 3}
+
+print(first | second)	# the type of 'first' and 'second' is set, so print a new set, items of which are the union 并集 between two sets and the union dosen't contain duplicates
+print(first & second)	# the type of 'first' and 'second' is set, so print a new set, items of which are the intersection 交集 between two sets
+print(first - second)	# the type of 'first' and 'second' is set, so print a new set, items of which are the difference 差集 between two sets 
+print(first ^ second)	# the type of 'first' and 'second' is set, so print a new set, items of which are the symmetry difference between two sets
+
+if 1 in first :
+	print('yes')
+```
