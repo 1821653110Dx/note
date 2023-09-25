@@ -242,3 +242,23 @@ print(first ^ second)	# the type of 'first' and 'second' is set, so print a new 
 if 1 in first :
 	print('yes')
 ```
+# Dictionaries
+```python
+point = {'x':1, 'y':2}	# dictionary 'point' = {'X':1, 'y',2}
+point_0 = dict(x=1, y=2)	# dictionary 'point_0' = {'x':1, 'y':2}
+point['x'] = 10		# 'point' includes key 'x',key 'x' of 'point' = 10
+point['z'] = 20		# 'point' doesn't include key 'z', append 'z':10 to 'point'
+
+if 'a' in point :	# if 'a' in 'point', then
+	print(point['a'])	# print the value of key 'a' of 'point'
+
+print(point.get('a', 0))	# print 0 if 'a' not in 'point', otherwise, print the value of 'a' of point
+
+del point['x']	# remove 'x' and its value from 'point'
+
+for key in point :	# key = ['x', 'y']
+	print(key, point[key])	# print every key and its value in point
+
+for x in point.items()	# x = {('x', 1), ('y', 2)}
+	print(x)	# print every x
+```
