@@ -262,3 +262,22 @@ for key in point :	# key = ['x', 'y']
 for x in point.items()	# x = {('x', 1), ('y', 2)}
 	print(x)	# print every x
 ```
+# Dictionary Comprehensions
+```python
+values = {x * 2 for x in range(5)} # values = a set, which contains all the values of x * 2, x = [0..4]
+
+Values = {x: x * 2 for x in range(5)}	# values = a dictionary, which contains all the values of 'x : x * 2', x = [0..4]
+
+```
+# Generators
+```python
+from sys import getsizeof
+
+values = {x * 2 for x in range(10)}	# values = a generator objects, which can generate all the values of 'x * 2', x = [0..9]
+
+ptint('gen:',getsizeof(values)) # print 'gen:' + getsizeof(values), getsizeof(values) = the size of generator 'values'
+
+for x in values :	# x = all the values 'values' generates,
+	print(x)	# print all the values of 'x'
+
+```
