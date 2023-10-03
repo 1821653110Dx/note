@@ -1,0 +1,17 @@
+# mount
+## non-root user mounts a partion
+- want mount_point = /media/<user>/<auto_created_mount_point>
+	- udiskctl mount -b /dev/<partition>
+> don't input 'sudo'
+- want to mount to a manually created mount_point
+	- sudo mount /dev/<partition> <mount_point> -o uid=<user's_uid>
+> usually uid = 1000
+>
+> check the uid: id
+
+## root mounts a partition
+- want mount_point = /media/root/<auto_created_mount_point>
+	- udiskctl mount -b /dev/<partition>
+> don't input 'sudo'
+- want mount_point to a manually created mount_point
+	- mount /dev/<partition> <mount_point>
