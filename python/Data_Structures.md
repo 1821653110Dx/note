@@ -281,3 +281,24 @@ for x in values :	# x = all the values 'values' generates,
 	print(x)	# print all the values of 'x'
 
 ```
+# Unpacking Operator
+```python
+# 1
+numbers = [1, 2, 3]
+
+print(*numbers)	# print contents of numbers, not including []
+
+values = [*range(5), *'hello']	# values = [0, 1, 2, 3, 4, 'h', 'e', 'l', 'l', 'o']
+
+# 2
+first = [1, 2]
+second = [3]
+
+values =[*first,*second]	#  values = [1, 2, 3]
+
+# 3
+first = {'x':1}
+second = {'x':10, 'y':2}
+
+combined = {**fist, **second, 'z':1}	# combined = {'x':1,'x':10, 'y':2,'z':1} , there 2 x, keep the last x, so combined = {'x':10, 'y':2,'z':1}
+```
