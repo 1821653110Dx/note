@@ -1,0 +1,44 @@
+\documentclass[12pt,a4paper, oneside]{ctexart}
+
+\ctexset{
+	section = {
+		format+ = \zihao{-4} \heiti \raggedright,
+		name = {,、},
+		number = \chinese{section},
+		beforeskip = 1.0ex plus 0.2ex minus .2ex,
+		afterskip = 1.0ex plus 0.2ex minus .2ex,
+		aftername = \hspace{0pt}
+	},
+	subsection = {
+		format+ = \zihao{5} \heiti \raggedright,
+		name = {,、},
+		number = \arabic{subsection},
+		beforeskip = 1.0ex plux 0.2ex minus .2ex,
+		afterskip = 1.0ex plus 0.2ex minus .2ex,
+		aftername = \hspace{0pt},
+	}
+}
+
+\usepackage{geometry}
+\geometry{
+left=2.5cm,
+right=2.5cm,
+top=2.5cm,
+bottom=2.5cm,
+}
+
+\begin{document}
+	\section{引言}
+		这是第一段
+		  
+		这是第二段
+	\section{实验方法}
+	\section{实验结果}
+	\subsection{数据}
+	\subsection{图表}
+	\subsubsection{实验条件}
+	\subsubsection{实验过程}
+	\subsection{结果分析}
+	\section{结论}
+	\section{致谢}
+\end{document}
