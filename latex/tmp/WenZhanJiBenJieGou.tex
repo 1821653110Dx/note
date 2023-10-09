@@ -1,19 +1,19 @@
 \documentclass[12pt,a4paper, oneside]{ctexart}
 
 \ctexset{
-	section = {
-		format+ = \zihao{-4} \heiti \raggedright,
-		name = {,、},
-		number = \chinese{section},
-		beforeskip = 1.0ex plus 0.2ex minus .2ex,
-		afterskip = 1.0ex plus 0.2ex minus .2ex,
-		aftername = \hspace{0pt}
+	section = {	% 定义一级标题
+		format+ = \zihao{-4} \heiti \raggedright,	% 字号为’-4‘，字体为’黑体‘，左对齐
+		name = {,、},	% 序号后面加’、‘
+		number = \chinese{section},	% 序号为’汉字‘
+		beforeskip = 1.0ex plus 0.2ex minus .2ex,	% 标题前的垂直间距 = 基础高度为1.0ex，可以伸展到 1.0 - 0.2 = 1.2ex，也可以收缩到 1.0 - .2 = 0.8ex; ex为当前字号下字母x的高度
+		afterskip = 1.0ex plus 0.2ex minus .2ex,	% 标题后的垂直间距 = ...	
+		aftername = \hspace{0pt}	% 编号和标题之间的格式 = 增加水平间距’0pt‘ 
 	},
-	subsection = {
+	subsection = {	% 定义二级标题
 		format+ = \zihao{5} \heiti \raggedright,
 		name = {,、},
-		number = \arabic{subsection},
-		beforeskip = 1.0ex plux 0.2ex minus .2ex,
+		number = \arabic{subsection},	% 序号为’阿拉伯数字‘
+		beforeskip = 1.0ex plus 0.2ex minus .2ex,
 		afterskip = 1.0ex plus 0.2ex minus .2ex,
 		aftername = \hspace{0pt},
 	}
