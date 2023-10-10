@@ -23,3 +23,15 @@ else :
 	print('No exceptios were thrown')
 finally :	# finally, run the following
 	file.close()	# close file responding to 'file'
+
+# with statement
+try :
+	with open('app.py') as file, open('another.txt') as target :	# if file = open('app.py') AND target = open('another.txt') successful, then run the following and colse the 'app.py' AND 'another.txt' after the code_block is finished
+		print('file opened')
+	age = int(input('Age:'))
+	xfactor = 10 /age
+except (ValueError, ZeroDivisionError) :		
+	print("You didn't enter a valid age")
+else :
+	print('No exceptios were thrown')
+```
