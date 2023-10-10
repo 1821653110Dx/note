@@ -1,0 +1,4 @@
+# PACKAGE
+p7zip-rar
+# input-method
+勾选支持内模糊音节
