@@ -34,4 +34,15 @@ except (ValueError, ZeroDivisionError) :
 	print("You didn't enter a valid age")
 else :
 	print('No exceptios were thrown')
+
+# handle exception without exception_code
+def calculate_xfactor(age) :
+	if age <= 0 :
+		return None	# stop running the rest code of the function and the function won't return a valid value
+	return 10 /age
+
+xfactor =  calculate_factor(-1)
+
+if xfactor == None :	# if xfactor don't have a vaild value
+	pass	# stoping running the whole code	
 ```
