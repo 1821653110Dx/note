@@ -1,14 +1,15 @@
 # class
+## define method
 ```python
-# 1
 class Point :	# custom a class called 'Point'
 	def draw(self) :	# def a method of Point: draw(), the function of this method :	; draw(self) equivalent to draw() can't be replaced with draw(), 
 		print('draw')	
 
 a = Point()	# the class of a is Point
 a.draw()		# use the draw() of a
-
-# 2
+```
+## define attributes
+```python
 class Point :
 	default_color = 'red'	# define the attribute default_color, value of which is 'red'
 	def __init__(self, x, y) :	# def the arttibutes of Point: x, y
@@ -25,3 +26,19 @@ print(point.default_color)
 print(Point.default_color) # print the value of attribute default_color of class Point
 point.draw()	# use the draw() of point
 ```
+## define classmethod
+```python
+class Point :
+	def __init__(self, x, y) :
+		self.x = x
+		self.y = y
+	
+	@classmethod	# the type of following methods to define is classmethod
+	def zero(cls) :	# def classmethod zaeo(), function is the following :
+		cls(0 ,0)	# init the arttibues' value to (0, 0)
+
+point = point.zero()	# the class of point is Point, use classmethod zero()
+
+```
+
+
