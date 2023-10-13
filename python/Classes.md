@@ -35,10 +35,9 @@ class Point :
 	
 	@classmethod	# the type of following methods to define is classmethod
 	def zero(cls) :	# def classmethod zaeo(), function is the following :
-		cls(0 ,0)	# init the arttibues' value to (0, 0)
+		return cls(0 ,0)	# init the arttibues' value to (0, 0)
 
-point = point.zero()	# the class of point is Point, use classmethod zero()
-
+point = Point.zero()	# the class of point is Point, use classmethod zero()
 ```
 
 
