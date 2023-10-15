@@ -1,4 +1,4 @@
-\documentclass[12pt,a4paper, oneside]{ctexart}
+\documentclass[a4paper, oneside]{ctexbook}
 
 \ctexset{
 	section = {	% 定义一级标题
@@ -28,17 +28,19 @@ bottom=2.5cm,
 }
 
 \begin{document}
-	\section{引言}
-		这是第一段
+	\tableofcontents	% generate a catalog
+	
+	\chapter{绪论}		% ctexart 不能用\chapter{},ctexbook不能用\subsubsection{}
+		\section{研究的目的和意义}
+			这是第一段
 		  
-		这是第二段
-	\section{实验方法}
-	\section{实验结果}
-	\subsection{数据}
-	\subsection{图表}
-	\subsubsection{实验条件}
-	\subsubsection{实验过程}
-	\subsection{结果分析}
-	\section{结论}
-	\section{致谢}
+			这是第二段
+		\section{国内外研究现状}
+			\subsection{国内研究现状}
+			\subsection{国外研究现状}
+		\section{研究内容}
+		\section{研究方法与技术路线}
+			\subsection{研究方法}
+			\subsection{技术路线}
 \end{document}
+
