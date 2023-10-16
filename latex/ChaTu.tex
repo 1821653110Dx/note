@@ -1,0 +1,23 @@
+\documentclass[a4paper, oneside]{ctexart}
+
+\usepackage{graphicx}	% 用于插入图像;这个包的具体用法：texdoc graphicx
+\graphicspath{{figures/},{pics/}}	% 图像仓库：当前目录下的figures/和pics/
+
+\begin{document}
+	\LaTeX{}中的插图:
+
+	\includegraphics{lion.jpg}	% 插入名为图片lion from figures/ or pics/
+	
+	\includegraphics{lion}	% 插入图片lion 
+
+	\includegraphics[scale=0.3]{lion}
+
+	\includegraphics[width=2cm]{lion}
+
+	\includegraphics[height=2cm]{lion}
+	
+	\includegraphics[angle=-45]{lion}
+
+	\includegraphics[scale=0.3,width=2cm]{lion}
+
+\end{document}

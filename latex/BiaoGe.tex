@@ -1,0 +1,17 @@
+% 查看表格具体用法：texdoc booktabs 和 texdoc tabu 
+
+\documentclass[a4paper, oneside]{ctexart}
+
+\begin{document}
+	\begin{tabular}{|l|c|p{1.5cm}|r|}	% 开始绘制表格，|表示生成竖线，|第一列文本：l（左对齐）|第二列文本：c（居中对齐）|第三裂文本：p{1.5cm}（列宽5cm，文本过长自动换行）|第四列文本：r（右对齐）|
+		\hline	% 生成横线
+		姓名 & 语文 & 数学 & 英语 \\
+		\hline
+		张三 & 80 & 100 a b c d e f g & 89 \\
+		\hline
+		李四 & 90 & 98 & 20 \\
+		\hline
+		王五 & 78 & 90 & 77 \\
+		\hline
+	\end{tabular} % 结束绘制表格
+\end{document}
