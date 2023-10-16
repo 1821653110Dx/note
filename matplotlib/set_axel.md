@@ -1,3 +1,4 @@
+```python
 import matplotlib.pyplot as plt
 import numpy as np
 
@@ -19,3 +20,4 @@ plt.xticks(ticks_1)	# set the ticks of x-axis as ticks_1
 plt.yticks([-2, -1.8, -1, 1.22, 3,],['really bad', 'bad', 'normal', 'good', 'really good'])	# for y axis, respectively set the ticks [-2, -1.8, -1, 1.22, 3,] as ['really bad', 'bad', 'normal', 'good', 'really good'])
 
 plt.show()
+```
