@@ -15,7 +15,7 @@ class Point :
 	def __init__(self, x, y) :	# def the arttibutes of Point: x, y
 		self.x = x + 3	# the value of attribute x = x + 3
 		self.y = y + 6
-	def draw(self) :	# def a method of Point: draw(), the function of this method :
+	def draw(self) :	# def a method of Class Point: draw()
 		print(f'Point ({self.x}, {self.y})')		# print Point ({the value of attribute x}, {the value of attribute y})
 
 Point.default_color = 'yellow'	# init the value of attribute 'default_color' of class 'Point' to 'yellow'
@@ -72,7 +72,55 @@ print(a == b)	# print whether a == b
 print(a > c)
 print(a < c)
 ```
+## Supporting Arithmetic Operations
+```python
+class Point :
+	def __init__(self, x, y) : 
+		self.x = x
+		self.y = y
+	
+	def __add__(self, other) :	# def the creterion for addition
+		return Point(self.x + other.x, self.y + other.y) # For two variables, addition = add the values of attribute x of two variables, add the values of attribute y of two variables
 
+a = Point(10, 20)
+b = Point(1, 2)
 
+# to print the sum of attribute x of a and b
+sum = a + b	# store the sum of attribute x of 'a+b' and sum of attribute y of 'a+b'
+print(sum.x)	# print(sum) only return the address	
+```
+## Custom Containers
+```python
 
+class TagCloud :	# define a container class, which is a dictionary class : TagCloud
+	def __init__(self) :	# define the attributes of Point : dictionary tags
+		self.tags = {}
+	
+	def add(self, tag) :	# def a method of class TagCloud: add(tag)
+		self.tags[tag.lower()] = self.tags.get(tag.lower(), 0) + 1 # if the key lowercased 'tag' not in dictionary 'tags' , add lowercased key 'tag' into dictionary and the value of lowercased key 'tag' = 0. the value of lowercased key 'tag' of dictionary 'tags' =  the value of lowercased key 'tag' + 1
+	def __getitem__(self, tag) : # define the creterion for getting lowercased item, item:  tag
+		return self.tags.get(tag.lower(), 0)	# if lowercased key 'tag' not in dictionary 'tags', add the lowercased key 'tag' into the dictionary and its value = 0. get the value of lowercased key 'tag' in dic 'tags'.
+	
+	def __setitem__(self, tag, count) : # define the creterion for setting the getted lowercased item, item: lowercased 'tag', its value: count
+		self.tags[tag.lower()] = count	# get the lowercased key 'tag' of dic 'tags', set its value to 'count'
+	
+	def __len__(self) :	# def the creterion for getting the length of container
+		return len(self.tags)
+
+	# def __iter__(self) : 	## def the creterion for geting one item at a time
+	#	return iter(self.tags)
+
+cloud =  TagCloud()
+
+cloud.add('Python')	# the class of cloud is a customed dictionary class, so if lowercased key 'Python' not in the attribute, then add lowercased key 'Python' into the attribute of cloud and its value = 0, otherwise the value of lowercased key 'Python' + 1
+cloud.add('python') 
+cloud.add('python') 
+
+cloud['Python'] = 10	# get the lowercased key 'Python' of dic 'tags', set its value to '10'; its related creterion def are '__getitem__' abd '__setitem__'
+
+len(cloud)	# it  related creterion def is '__len__'
+
+print(cloud.tags)	# print the value of attribute tags of cloud, which is a dictionary 
+
+```
 

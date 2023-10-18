@@ -253,7 +253,7 @@ if 'a' in point :	# if 'a' in 'point', then
 	print(point['a'])	# print the value of key 'a' of 'point'
 
 print(point.get('a', 0))	# print 0 if 'a' not in 'point', otherwise, print the value of 'a' of point
-
+				# point.get('a', 0) : if key 'a' not in dictionary 'point', add key 'a' into dictionary and the value of 'a' = 0. point.get('a', 0) = the value of key 'a'
 del point['x']	# remove 'x' and its value from 'point'
 
 for key in point :	# key = ['x', 'y']
