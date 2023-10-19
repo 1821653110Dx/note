@@ -123,4 +123,30 @@ len(cloud)	# it  related creterion def is '__len__'
 print(cloud.tags)	# print the value of attribute tags of cloud, which is a dictionary 
 
 ```
+## Public, Protected and Private Variabls
+- Public Variabls
+	- naming method
+		- <name>
+	- access method
+		- a.<name>
+	- feature
+		- can be accessed directly
 
+- Protected Variabls
+	- nameing method
+		- _<name>
+	- access method
+		- a._<name>
+	- feature
+		- can be accessed within father_class or its subclassess olny
+- Private Variabls
+	- naming method
+		- __<name>
+	- access method
+		- a._<class>__<name>
+	- feature
+		- can be accessed within father_class only
+## Properties
+```python
+
+```
