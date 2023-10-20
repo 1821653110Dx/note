@@ -123,30 +123,19 @@ len(cloud)	# it  related creterion def is '__len__'
 print(cloud.tags)	# print the value of attribute tags of cloud, which is a dictionary 
 
 ```
-## Public, Protected and Private Variabls
-- Public Variabls
-	- naming method
-		- <name>
-	- access method
-		- a.<name>
-	- feature
-		- can be accessed directly
-
-- Protected Variabls
-	- nameing method
-		- _<name>
-	- access method
-		- a._<name>
-	- feature
-		- can be accessed within father_class or its subclassess olny
-- Private Variabls
-	- naming method
-		- __<name>
-	- access method
-		- a._<class>__<name>
-	- feature
-		- can be accessed within father_class only
 ## Properties
 ```python
+class Product :
+	def __init__(self, price) :	# define the attribute : PRIVATE 'price', which can't be directly getted or setted
+		self.set_price(price)	# define the attribute by calling function set_price
 
+	def get_price(self) :	# define a method to get the value of PRIVATE 'price' : get_price
+		return self.__price	# return the value of PRIVATE 'price'
+
+	def set_price(self, value) :	# define a method to correctly set the PRIVATE 'price' : set_price(value)
+		if value < 0 :	# if value < 0, then
+			raise ValueError('Price cannot be negative') # raise a ValueError called 'Price cannot be negative'
+		self.__price = value	# otherwise, PRIVATE 'price' == value
+
+product = Product(50)
 ```
