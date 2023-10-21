@@ -33,7 +33,7 @@ class Point :
 		self.x = x
 		self.y = y
 
-	@classmethod	# the type of following methods to define is classmethod
+	@classmethod	# ready to create a classmethod
 	def zero(cls) :	# def classmethod zaeo(), function is the following :
 		return cls(0 ,0)	# init the arttibues' value to (0, 0)
 
@@ -124,18 +124,41 @@ print(cloud.tags)	# print the value of attribute tags of cloud, which is a dicti
 
 ```
 ## Properties
+### have the same without using Properties
 ```python
 class Product :
-	def __init__(self, price) :	# define the attribute : PRIVATE 'price', which can't be directly getted or setted
+	def __init__(self, price) :	# define the attribute : __price(PRIVATE 'price'), which can't be directly getted or setted
 		self.set_price(price)	# define the attribute by calling function set_price
 
-	def get_price(self) :	# define a method to get the value of PRIVATE 'price' : get_price
-		return self.__price	# return the value of PRIVATE 'price'
+	def get_price(self) :	# define a method to get the value of __price : get_price
+		return self.__price	# return the value of __price
 
-	def set_price(self, value) :	# define a method to correctly set the PRIVATE 'price' : set_price(value)
+	def set_price(self, value) :	# define a method to correctly set the __price : set_price(value)
 		if value < 0 :	# if value < 0, then
 			raise ValueError('Price cannot be negative') # raise a ValueError called 'Price cannot be negative'
-		self.__price = value	# otherwise, PRIVATE 'price' == value
+		self.__price = value	# otherwise, __price == value
 
 product = Product(50)
+```
+### have the same result with properties
+```python
+class Product :
+	def __init__(self, price) :	# define the attribute: __price
+		self.price = price	# __price = price
+	
+	@property	# ready to create a property
+	def price(self) :	# def a property called 'price'
+		return self.__price # use .price to get the value of __price 
+
+	@price.setter	# use .price to set the value of __price
+	def price(self, value) :	# def the creteria for setting the __price
+		if value < 0 :	
+			raise ValueError('Price cannot be negative') 
+		self.__price = value 
+	
+product = Product(50)	# the class of product is Product, the value of __price is 50
+
+product.price = 1  # set the value of __price of 'product' to -1
+
+print(product.price)	# print the value of 'product'
 ```
