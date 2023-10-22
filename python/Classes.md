@@ -174,7 +174,7 @@ class Animal :
 class Mammal(Animal) :	# custom a class called 'Mammal', which will inherite all the methods of 'Animal' and inherite all the attributes of 'Animal' if the class won't def attributes
 	def __init__(self) :	# def attributes : 
 		self.weight = 2
-		super().__init__()	# inherite attributes of 'Animal'
+		super().__init__()	# inherit attributes of 'Animal'(why add this line: becase I def attributes of the class just now, so the class won't automaticly inherite the attributes)
 
 	def walk(self) :
 		print('walk')

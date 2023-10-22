@@ -7,7 +7,7 @@ y1 = 2*x + 1
 y2 = x**2
 
 # set color, linewidth, linestyle
-plt.figure()
+plt.figure()	# generate one figure only
 plt.plot(x, y1, color='red', linewidth=1.0, linestyle='--')
 plt.plot(x, y2)
 
@@ -32,7 +32,6 @@ ax.xaxis.set_ticks_position('bottom')	# x axis = botom spines
 ax.yaxis.set_ticks_position('left')	# y axis = left spines
 ax.spines['bottom'].set_position(('data', 0))	# move x axis to the line that y = 0
 ax.spines['left'].set_position(('data', 0))	# move y axis to the line that x = 0
-
 
 plt.show()
 ```
