@@ -1,0 +1,41 @@
+\documentclass[a4paper, oneside]{ctexart}
+
+\usepackage{geometry}
+\geometry{
+left=2.5cm.
+right=2.5cm,
+top=2.5cm,
+bottom=2.5cm,
+}
+
+\usepackage{graphicx}
+\graphicspath{{figures/},{pics/}}
+
+\begin{document}
+	\LaTeX{}中\TeX系统的吉祥物---小狮子见图\ref{fig-lion}	% \ref{fig-lion} = 引用fig-lion对应的对象的编号值
+	\begin{figure}[htbp]	% 启用图像的浮动体环境(进行高级图像编辑需要开启～),浮动格式为htbp(一般情况下浮动格式就这么设置)；为什么要设置浮动体环境：为了让排版更加紧密
+		\centering	% 居中对齐
+		\caption{\TeX 系统的吉祥物---小狮子}\label{fig-lion}	% 设置图片标题并自动编号，这个对象的标签为：fig-lion
+
+		\includegraphics[scale=0.3]{lion}
+	\end{figure}
+	
+	在\LaTeX{}中的表格如表\ref{tab-score}
+	\begin{table}[htbp]	% 启用表格的浮动体环境，浮动格式为htbp
+		\centering
+		\caption{考试成绩}\label{tab-score}	% 设置表格标题并自动编号（与插图标题相互独立)，这个对象的标签为：～
+		
+		\begin{tabular}{c|c|c|c|}
+			\hline
+			姓名 & 语文 & 数学 & 英语 \\
+			\hline
+			张三 & 80 & 100 & 89 \\
+			\hline
+			李四 & 90 & 98 & 20 \\
+			\hline
+			王五 & 78 & 90 & 77 \\
+			\hline
+		\end{tabular}
+	\end{table}
+\end{document}
+
