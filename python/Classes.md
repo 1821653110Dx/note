@@ -189,3 +189,34 @@ m.eat()	# use eat() of 'm'
 print(m.age)	# print the value of attribute 'age' of 'm'
 print(m.weight)
 ```
+## Multi-Level Inheritance(limited to 1 / 2 levels)
+```python
+class Animal :
+	def eat(self) :
+		print('eat')
+
+class Bird(Animal) :
+	def fly(self) :
+		print('fly')
+
+class chicken(Bird) :
+	pass	# don't manually def this class	
+```
+## Multiple Inheritance
+```python
+class Employee :
+	def greet(self) :
+		print('Employee Greet')
+
+class Person :
+	def greet(self) :
+		print('Person Greet')
+
+class Manager(Employee, Person) :	
+	pass	
+	
+manager = Manager()	# the class of 'manager' is 'Manager', which doesn't has attributes
+manager.greet()	# call method 'greet()' of 'manager', but both 'Employee' and 'Person' have greet() and 'Employee' is infront of 'Person' at 'class Manager(Employee, Person)', so it will call the 'greet()' of 'Employee'
+
+
+```
