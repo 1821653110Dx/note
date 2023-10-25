@@ -171,7 +171,7 @@ class Animal :
 	def eat(self) :
 		print('eat')
 
-class Mammal(Animal) :	# custom a class called 'Mammal', which will inherite all the methods of 'Animal' and inherite all the attributes of 'Animal' if the class won't def attributes
+class Mammal(Animal) :	# custom a class called 'Mammal', which will inherite all the freatures of 'Animal' if the class won't def attributes, if defed, it will inherit all the methods only
 	def __init__(self) :	# def attributes : 
 		self.weight = 2
 		super().__init__()	# inherit attributes of 'Animal'(why add this line: becase I def attributes of the class just now, so the class won't automaticly inherite the attributes)
@@ -200,7 +200,7 @@ class Bird(Animal) :
 		print('fly')
 
 class chicken(Bird) :
-	pass	# don't manually def this class	
+	pass	# now, for features, 'chicken' = 'Bird'
 ```
 ## Multiple Inheritance
 ```python
@@ -218,5 +218,47 @@ class Manager(Employee, Person) :
 manager = Manager()	# the class of 'manager' is 'Manager', which doesn't has attributes
 manager.greet()	# call method 'greet()' of 'manager', but both 'Employee' and 'Person' have greet() and 'Employee' is infront of 'Person' at 'class Manager(Employee, Person)', so it will call the 'greet()' of 'Employee'
 
+```
+## A Good Example of Innheritance
+```python
+from abc import ABC, abstractmethod	# from abc, import class 'ABC', method 'abstractmethod'; abc module is used to reminder programmers which functions that haven't been fully built to complete  after the program has failed to run
+
+class InvalidOperationError(Exception) :	# Customed a class called 'InvalidOperationError', which will inherite all the freatures of 'Exception'(system class) if the class won't def attributes
+	pass	# now, for features, 'InvalidOperationError' = 'Exception'
+
+class Stream(ABC) :	# customed a class called 'Stream' and it is not fullt built yet
+	def __init__(self) :
+		self.opened = False	# the statement of open is False by default 
+
+	def open(self) :
+		if self.opened :	# If opened, then : ;  If self.opened = True, then
+			raise InvalidOperationError('Stream is already opened')	# automatically detect the type of error and raise it, then print '~'
+
+		self.opened = True	# Otherwise, it is opended; Otherwise, self.opened = True
+
+
+	def close(self) :
+		if not self.opened :	# If not opened, then : ;  If self.opened /= True, then
+			raise InvalidOperationError('Stream is already closed')
+
+		self.opened = False	# Otherwise, it is not opended; Otherwise, self.opened = False
+	
+	@abstractmethod		# method read() haven't been started building yet
+	def read(self) :	#
+		pass		# 
+	
+
+class FileStream(Stream) :
+	def read(self) :
+		print('Reading data from a file')
+
+class NetworkStream(Stream) :
+	def read(self) :
+		print('Reading data from a network')
+
+stream = Stream()	# class 'Stream' haven't been fully built yet, so after you run the program you will see a type error, which means 'the class hasn't been fully built and you need to finish the constrcution of the class'
+stream.open()
+
 
 ```
+	
