@@ -1,4 +1,5 @@
 # class
+purpose: let a variable using customed methods and attributes
 ## define method
 ```python
 class Point :	# custom a class called 'Point'
@@ -183,6 +184,9 @@ class Fish(Animal) :
 	def swim(swim) :
 		print('swim')
 
+class MemoryStream(Stream) :
+
+
 m = Mammal()	# the class of m is 'Mammal', whose atrrbutes are constant
 
 m.eat()	# use eat() of 'm'
@@ -199,8 +203,8 @@ class Bird(Animal) :
 	def fly(self) :
 		print('fly')
 
-class chicken(Bird) :
-	pass	# now, for features, 'chicken' = 'Bird'
+class chicken(Bird) :	# customed a class called : chicken, for features. chicken = Bird
+	pass		#
 ```
 ## Multiple Inheritance
 ```python
@@ -226,7 +230,7 @@ from abc import ABC, abstractmethod	# from abc, import class 'ABC', method 'abst
 class InvalidOperationError(Exception) :	# Customed a class called 'InvalidOperationError', which will inherite all the freatures of 'Exception'(system class) if the class won't def attributes
 	pass	# now, for features, 'InvalidOperationError' = 'Exception'
 
-class Stream(ABC) :	# customed a class called 'Stream' and it is not fullt built yet
+class Stream(ABC) :	# customed a class called 'Stream' and it is not fullt built yet(it is abstruct)
 	def __init__(self) :
 		self.opened = False	# the statement of open is False by default 
 
@@ -243,7 +247,7 @@ class Stream(ABC) :	# customed a class called 'Stream' and it is not fullt built
 
 		self.opened = False	# Otherwise, it is not opended; Otherwise, self.opened = False
 	
-	@abstractmethod		# method read() haven't been started building yet
+	@abstractmethod		# method read() haven't been started building yet(method read() is totally abstruct)
 	def read(self) :	#
 		pass		# 
 	
@@ -256,9 +260,33 @@ class NetworkStream(Stream) :
 	def read(self) :
 		print('Reading data from a network')
 
-stream = Stream()	# class 'Stream' haven't been fully built yet, so after you run the program you will see a type error, which means 'the class hasn't been fully built and you need to finish the constrcution of the class'
-stream.open()
+class MemoryStream(Stream) :	# customed a class called : MemoryStream, for freatures, MemoryStream = Stream
+	pass			#
 
+stream = Stream()	# class 'Stream' is abstruct, so after you run the program you will see a type error, which means 'the class hasn't been fully built and you need to finish the constrcution of the class'
+
+stream_1 = MemoryStream()	# because MemoryStream directly inherits all the features of 'Stream' and 'Stream' is abstruct, so after you run the program you will see a type error, which means 'the class hasn't been fully built and you need to finish the constrcution of the class'
+
+stream.open()
+```
+# Duck Typing
+```python
+class TextBox :
+	def draw(self) :
+		print('TextBox')
+
+class DropDownList:
+	def draw() :
+		print('DropDownList')
+
+def draw(controls) :	# def function 'draw()', its variable: list controls, its function : 
+	for control in controls :	# for every control in list controls
+		control.draw()	# use 'draw()' of TextBox/DropDownList
+
+a = DropDownList()	# the type of class of a = customed 'DropDownList'
+b = TextBox()
+
+draw([a, b])	# use function draw(), its variables : [a, b]
 
 ```
 	
