@@ -13,7 +13,7 @@ a.draw()		# use the draw() of a
 ```python
 class Point :
 	default_color = 'red'	# define the attribute default_color, value of which is 'red'
-	def __init__(self, x, y) :	# def the arttibutes of Point: x, y
+	def __init__(self, x, y) :	# def the arttibutes of Point, which includes: x, y
 		self.x = x + 3	# the value of attribute x = x + 3
 		self.y = y + 6
 	def draw(self) :	# def a method of Class Point: draw()
@@ -60,10 +60,10 @@ class Point :
 		self.x = x
 		self.y = y
 	
-	def __eq__(self, other) :	# define criteria标准 for variable equalty for variables of this class
+	def __eq__(self, other) :	# define criteria标准 for variable equalty for variables of this class(this is needed when you judge whether variabes are euqal because customed class Point isn't a data class and  doesn' inherit buil-in classes)
 		return self.x == other.x and self.y == other.y	# For two variables, if values of attribue x are eq and values of attributes y are eq, then two variables are eq 
 	
-	def __gt__(self, other) :	# define criteria for greater_than and less_than
+	def __gt__(self, other) :	# define criteria for greater_than and less_than(this is needed when judge which variable is bigger because customed class Point isn't a data class and  doesn' inherit buil-in classes)
 		return self.x > other.x and self.y > other.y
 a = Point(1, 2)
 b = Point(1, 2)
@@ -94,7 +94,7 @@ print(sum.x)	# print(sum) only return the address
 ```python
 
 class TagCloud :	# define a container class, which is a dictionary class : TagCloud
-	def __init__(self) :	# define the attributes of Point : dictionary tags
+	def __init__(self) :	# define the attributes, which includes : dictionary tags
 		self.tags = {}
 	
 	def add(self, tag) :	# def a method of class TagCloud: add(tag)
@@ -128,7 +128,7 @@ print(cloud.tags)	# print the value of attribute tags of cloud, which is a dicti
 ### have the same without using Properties
 ```python
 class Product :
-	def __init__(self, price) :	# define the attribute : __price(PRIVATE 'price'), which can't be directly getted or setted
+	def __init__(self, price) :	# define the attributes, which inclueds : __price(PRIVATE 'price'), which can't be directly getted or setted
 		self.set_price(price)	# define the attribute by calling function set_price
 
 	def get_price(self) :	# define a method to get the value of __price : get_price
@@ -144,7 +144,7 @@ product = Product(50)
 ### have the same result with properties
 ```python
 class Product :
-	def __init__(self, price) :	# define the attribute: __price
+	def __init__(self, price) :	# define the attribute, which includes: __price
 		self.price = price	# __price = price
 	
 	@property	# ready to create a property
@@ -166,7 +166,7 @@ print(product.price)	# print the value of 'product'
 ## inheritance
 ```python
 class Animal :
-	def __init__(self) :	# def the attributes of 'Animal' :
+	def __init__(self) :	# def the attributes of 'Animal', which includes : constant age
 		self.age = 1	# age = 1
 
 	def eat(self) :
@@ -283,10 +283,44 @@ def draw(controls) :	# def function 'draw()', its variable: list controls, its f
 	for control in controls :	# for every control in list controls
 		control.draw()	# use 'draw()' of TextBox/DropDownList
 
-a = DropDownList()	# the type of class of a = customed 'DropDownList'
+a = DropDownList()	# the class of a = customed 'DropDownList'
 b = TextBox()
 
 draw([a, b])	# use function draw(), its variables : [a, b]
 
 ```
-	
+# Extending Built-in Types
+let customed classes inherit built-in classes
+```python
+class Text(str) :	# custom a class called 'Text', which will inheirt all the features of built-in class 'stir'
+	def duplicate(self) :
+		return self + self	# duplicate its attribute value
+
+class TrackableList(list) :	
+	def append(self, object) :	# modify method 'append()' exsisted in the class, its variable: object, its function :
+		print('Apend called')
+		super().append(object)	# call the original append(object) for curent variable
+
+text = Text('Python')	# the class of text is customed Text, its attribute = 'Python'
+
+list =  TrackableList()
+
+print(text.lower())	# print the lowercased attribute value of text : its class has inherited class 'str', so just call its method lower() , then print the value
+print(text.duplicate())	# print the duplicate attribute value of text : call its method duplicate, and print the value
+
+list.append('1')
+```
+# Data Classes
+a better way to save numorous data
+```python
+from collections import namedtuple
+
+Point = namedtuple('Point', ['x', 'y'])		# costomed class Point and it's a data class(which is used to store data), its data are value of x, y
+
+p1 = Point(1, 2)	# the class of p1 is data class 'Point', it's data : the value of x, y, x, y = 1, 2
+p2 = Point(1, 2)
+
+p1 = Point(10, 2)	# change the value of attribute x of data class 'p1' to 10; this line can't be replaced with p1.x = 10
+
+print(p1 == p2)		# p1 and p2 are data classes, you can judge whether they are equaly directly
+```
