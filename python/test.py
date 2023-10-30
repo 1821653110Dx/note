@@ -1,26 +1,22 @@
-# for linux
 from pathlib import Path
 
-path = Path('ecommerce/__init__.py')	# path = path_object: ecommerce/__init__.py, which is equivallent to ./emmerce/__init__.py
+path = Path('ecommerce/')
 
-path.exists()	# does path_object exists ?
-path.is_file()	# is path_object a file ?
-path.is_dir()	# is path obhect a directory ?
+paths = [p for p in path.iterdir()]	# paths  = a list of lv.1 subpaths of 'path'
+print(paths)
 
+print(5*'---')
 
-Path.home()	# return the home directory of current user
+paths = [p for p in  path.iterdir() if p.is_dir()]	# paths = a list of lv.1 subpaths of 'path', and each subpath is dir
 
-print(path)
-print(path.name)	# print the name of object pointed by path
-print(path.stem)	# name = stem.suffix
-print(path.suffix)
-print(path.parent)	# print the parent of path_object of 'path'
+py_files = [ p for p in path.glob('*.py')]	# py_files = a list of '*.py' under 'path'
 
-path = path.with_name('init.txt')	# path = noexsisted path_object: ecommerce/init.txt
+py_files_r = [p for p in path.rglob('*.py')]	# py_files_r = a list of '*.py' under 'path' and its subpaths
 
-print(path)
+print(paths,'\n')
+print(py_files,'\n')
+print(py_files_r)	
 
-path = path.with_suffix('.py')	# path = noexsisted path_object: ecoomerce/init.py
 
 
 
