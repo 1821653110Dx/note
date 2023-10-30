@@ -1,29 +1,15 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2022/dev/Debian) (preloaded format=xelatex 2023.9.19)  29 OCT 2023 22:06
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2022/dev/Debian) (preloaded format=xelatex 2023.9.19)  30 OCT 2023 21:23
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**ShuXueGongShi.tex
-(./ShuXueGongShi.tex
+**JuZhen.tex
+(./JuZhen.tex
 LaTeX2e <2021-11-15> patch level 1
 L3 programming layer <2022-01-21>
-(/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
-Document Class: article 2021/10/04 v1.4n Standard LaTeX document class
-(/usr/share/texlive/texmf-dist/tex/latex/base/size10.clo
-File: size10.clo 2021/10/04 v1.4n Standard LaTeX file (size option)
+(/usr/share/texlive/texmf-dist/tex/latex/ctex/ctexart.cls
+(/usr/share/texlive/texmf-dist/tex/latex/ctex/config/ctexbackend.cfg
+File: ctexbackend.cfg 2021/12/12 v2.5.8 Backend configuration file (CTEX)
 )
-\c@part=\count181
-\c@section=\count182
-\c@subsection=\count183
-\c@subsubsection=\count184
-\c@paragraph=\count185
-\c@subparagraph=\count186
-\c@figure=\count187
-\c@table=\count188
-\abovecaptionskip=\skip47
-\belowcaptionskip=\skip48
-\bibindent=\dimen138
-)
-(/usr/share/texlive/texmf-dist/tex/latex/ctex/ctex.sty
 (/usr/share/texlive/texmf-dist/tex/latex/l3kernel/expl3.sty
 Package: expl3 2022-01-21 L3 programming layer (loader) 
 
@@ -31,17 +17,17 @@ Package: expl3 2022-01-21 L3 programming layer (loader)
 File: l3backend-xetex.def 2022-01-12 L3 backend support: XeTeX
 
 (|extractbb --version)
-\c__kernel_sys_dvipdfmx_version_int=\count189
-\l__color_backend_stack_int=\count190
-\g__color_backend_stack_int=\count191
-\g__graphics_track_int=\count192
+\c__kernel_sys_dvipdfmx_version_int=\count181
+\l__color_backend_stack_int=\count182
+\g__color_backend_stack_int=\count183
+\g__graphics_track_int=\count184
 \l__pdf_internal_box=\box50
-\g__pdf_backend_object_int=\count193
-\g__pdf_backend_annotation_int=\count194
-\g__pdf_backend_link_int=\count195
+\g__pdf_backend_object_int=\count185
+\g__pdf_backend_annotation_int=\count186
+\g__pdf_backend_link_int=\count187
 ))
-Package: ctex 2021/12/12 v2.5.8 Chinese adapter in LaTeX (CTEX)
-
+Document Class: ctexart 2021/12/12 v2.5.8 Chinese adapter for class article (CT
+EX)
 (/usr/share/texlive/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
 Package: xparse 2022-01-12 L3 Experimental document command parser
 )
@@ -61,14 +47,31 @@ Package: fix-cm 2020/11/24 v1.1t fixes to LaTeX
 File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
 LaTeX Font Info:    Redeclaring font encoding TS1 on input line 47.
 ))
-\l__ctex_tmp_int=\count196
+\l__ctex_tmp_int=\count188
 \l__ctex_tmp_box=\box51
-\l__ctex_tmp_dim=\dimen139
-\g__ctex_section_depth_int=\count197
-\g__ctex_font_size_int=\count198
+\l__ctex_tmp_dim=\dimen138
+\g__ctex_section_depth_int=\count189
+\g__ctex_font_size_int=\count190
 
 (/usr/share/texlive/texmf-dist/tex/latex/ctex/config/ctexopts.cfg
 File: ctexopts.cfg 2021/12/12 v2.5.8 Option configuration file (CTEX)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2021/10/04 v1.4n Standard LaTeX document class
+(/usr/share/texlive/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2021/10/04 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count191
+\c@section=\count192
+\c@subsection=\count193
+\c@subsubsection=\count194
+\c@paragraph=\count195
+\c@subparagraph=\count196
+\c@figure=\count197
+\c@table=\count198
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen139
 )
 (/usr/share/texlive/texmf-dist/tex/latex/ctex/engine/ctex-engine-xetex.def
 File: ctex-engine-xetex.def 2021/12/12 v2.5.8 XeLaTeX adapter (CTEX)
@@ -182,17 +185,15 @@ Package: zhnumber 2020/05/01 v2.8 Typesetting numbers with Chinese glyphs
 (/usr/share/texlive/texmf-dist/tex/latex/zhnumber/zhnumber-utf8.cfg
 File: zhnumber-utf8.cfg 2020/05/01 v2.8 Chinese numerals with UTF8 encoding
 ))
-(/usr/share/texlive/texmf-dist/tex/latex/ctex/scheme/ctex-scheme-chinese.def
-File: ctex-scheme-chinese.def 2021/12/12 v2.5.8 Chinese scheme for generic (CTE
-X)
+\l__ctex_heading_skip=\skip57
 
-(/usr/share/texlive/texmf-dist/tex/latex/ctex/config/ctex-name-utf8.cfg
+(/usr/share/texlive/texmf-dist/tex/latex/ctex/scheme/ctex-scheme-chinese-articl
+e.def
+File: ctex-scheme-chinese-article.def 2021/12/12 v2.5.8 Chinese scheme for arti
+cle (CTEX)
+ (/usr/share/texlive/texmf-dist/tex/latex/ctex/config/ctex-name-utf8.cfg
 File: ctex-name-utf8.cfg 2021/12/12 v2.5.8 Caption with encoding UTF-8 (CTEX)
-))
-(/usr/share/texlive/texmf-dist/tex/latex/tools/indentfirst.sty
-Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
-)
-(/usr/share/texlive/texmf-dist/tex/latex/ctex/ctex-c5size.clo
+)) (/usr/share/texlive/texmf-dist/tex/latex/ctex/ctex-c5size.clo
 File: ctex-c5size.clo 2021/12/12 v2.5.8 c5size option (CTEX)
 )
 (/usr/share/texlive/texmf-dist/tex/latex/ctex/fontset/ctex-fontset-fandol.def
@@ -226,7 +227,7 @@ File: ctex.cfg 2021/12/12 v2.5.8 Configuration file (CTEX)
 )
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2021/10/15 v2.17l AMS math features
-\@mathmargin=\skip57
+\@mathmargin=\skip58
 
 For additional information on amsmath, use the `?' option.
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
@@ -276,14 +277,13 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
 \totwidth@=\dimen181
 \lineht@=\dimen182
 \@envbody=\toks19
-\multlinegap=\skip58
-\multlinetaggap=\skip59
+\multlinegap=\skip59
+\multlinetaggap=\skip60
 \mathdisplay@stack=\toks20
 LaTeX Info: Redefining \[ on input line 2938.
 LaTeX Info: Redefining \] on input line 2939.
-)
-(./ShuXueGongShi.aux)
-\openout1 = `ShuXueGongShi.aux'.
+) (./JuZhen.aux)
+\openout1 = `JuZhen.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 6.
 LaTeX Font Info:    ... okay on input line 6.
@@ -360,23 +360,23 @@ LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 
 
 LaTeX Font Warning: Font shape `OMX/cmex/m/n' in size <10.53937> not available
-(Font)              size <10.95> substituted on input line 8.
+(Font)              size <10.95> substituted on input line 7.
 
 [1
 
-] [2] [3] (./ShuXueGongShi.aux)
+] (./JuZhen.aux)
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 0.41063pt have occurred.
 
  ) 
 Here is how much of TeX's memory you used:
- 6604 strings out of 476191
- 187518 string characters out of 5812072
- 522546 words of memory out of 5000000
- 27295 multiletter control sequences out of 15000+600000
- 472647 words of font info for 55 fonts, out of 8000000 for 9000
+ 7223 strings out of 476191
+ 205310 string characters out of 5812072
+ 542296 words of memory out of 5000000
+ 27922 multiletter control sequences out of 15000+600000
+ 472599 words of font info for 49 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 89i,6n,97p,373b,270s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 89i,9n,97p,345b,270s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on ShuXueGongShi.pdf (3 pages).
+Output written on JuZhen.pdf (1 page).
