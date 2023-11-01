@@ -1,3 +1,4 @@
+```python3
 import matplotlib.pyplot as plt
 import numpy as np
 
@@ -19,3 +20,4 @@ plt.xticks(())
 plt.yticks(())
 
 plt.show()
+```
