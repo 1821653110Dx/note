@@ -60,3 +60,56 @@ print(paths,'\n')
 print(py_files,'\n')
 print(py_files_r)	
 ```
+# Working with Files
+## basic functions
+```python
+from pathlib import Path
+from time import ctime
+
+path = Path('ecommerce/__init__.py')
+
+# path.exists()					# check whether file of 'path' exists
+# path.rename('ecommerce/__init__.txt')		# move the file of 'path'
+# path.unlink()					# delete file of 'path'
+
+print(ctime(path.stat().st_ctime))				# print the create_time of the path of 'path', make sure its humanable
+
+print(path.read_text()) 	# read the text of the file of 'path', and print it
+path.write_text('hello world')  # write 'hello world' into the file of 'path'
+```
+## copy
+```python
+from matplotlib import Path
+import shutil
+
+
+source  = Path('ecommerce/__init__.py')		# the file to copy: 'ecoomer/__init__.py', save the path into 'source'
+target = Path() / '__init__.py'			# copy the file to './__iniit__.py', save the path into 'target'
+
+shutil.copy(source, target)			# copy the file of 'source' to the path of 'target' 
+```
+# Working with Zip Files
+## create
+```python
+from pathlib import Path
+from zipfile import ZipFile
+
+with ZipFile('files.zip', 'w') as zip :	# create and open './files.zip', save the path in 'zip', then close it after the followings are finished
+	for path in Path('ecommerce').rglob('*.*') :	# for each file(be reffered to as 'path') in 'ecommerce' and its subpaths
+		zip.write(path)				# write it into 'zip'
+```
+## read
+```python
+from pathlib import Path
+from zipfile import ZipFile
+
+with ZipFile('files.zip') as zip :		# open 'files.zip' and save its path to 'zip', then close it afther the followings are finished
+	print(zip.namelist())	# get a list of file_names of 'zip', and print it
+
+	info = zip.getinfo('ecommerce/__init__.py')	# get info of 'ecommerce/__init__.py' of 'zip', and save the path in 'info'
+
+	print(info.file_size)	# get the file_size of 'info', and print it
+	print(info.compress_size)	# get the compress_size of 'info', and print it
+	
+	zip.extractall('extract')	# extract all the files of 'zip' to path: extract
+```
