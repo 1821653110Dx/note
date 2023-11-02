@@ -1,0 +1,67 @@
+\documentclass{ctexart}
+
+\usepackage{amsmath}
+
+
+\begin{document}
+	% 行间矩阵
+	\[				% 开始创建矩阵
+		\begin{matrix}		% 创建没有括号的矩阵
+			0 & 1 \\
+			1 & 0	
+		\end{matrix}		% 结束创建
+		\qquad			% 插入空格
+		\begin{pmatrix}		%
+			0 & 1 \\
+			1 & 0	
+		\end{pmatrix}		% 创建带有小括号的矩阵
+		\qquad
+		\begin{bmatrix}		% 创建带有中括号的矩阵	
+			0 & -1 \\
+			1 & 0
+		\end{bmatrix}
+		\qquad
+		\begin{Bmatrix}		% 创建带有大括号的矩阵	
+			0 & -1 \\
+			1 & 0
+		\end{Bmatrix}
+		\qquad
+		\begin{vmatrix}		% 创建带有单竖线的矩阵
+			0 & -1 \\
+			1 & 0
+		\end{vmatrix}
+		\qquad
+		\begin{Vmatrix}		% 创建带有双竖线的矩阵
+			0 & -1 \\
+			1 & 0
+		\end{Vmatrix}
+	\]			% 结束创建矩阵
+
+	\[
+		A = \begin{bmatrix}	% A=代括号的矩阵 
+			a_{11} & \dots & a_{1n} \\
+			 & \ddots & \vdots \\
+			0 & & a_{nn}
+		\end{bmatrix}_{n \times n}	% 矩阵带下标
+	\]			
+	
+	% 嵌套矩阵的矩阵
+	\[
+			\begin{pmatrix}
+				\begin{matrix} 1 & 0 \\ 0 & 1 \end{matrix} & \text{\Large 0} \\
+				\text{\Large 0} & \begin{matrix} 1 & 0 \\ 0 & -1 \end{matrix}
+			\end{pmatrix}
+	\]
+
+	% 行间矩阵
+	复数z=(x,y)也可以用矩阵
+	\begin{math}
+		\left(	% 手动添加（; 行内矩阵必须要手动添加括号
+			\begin{smallmatrix}
+				x & -y \\ 
+				y & x
+			\end{smallmatrix}
+		\right)
+	\end{math}
+	来表示。
+\end{document}

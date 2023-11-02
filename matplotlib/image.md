@@ -1,3 +1,4 @@
+```python
 import matplotlib.pyplot as plt
 import numpy as np
 
@@ -14,4 +15,4 @@ plt.colorbar()
 plt.xticks(())
 plt.yticks(())
 plt.show()
-
+```
