@@ -103,7 +103,7 @@ with ZipFile('files.zip', 'w') as zip :	# create and open './files.zip',  link i
 from pathlib import Path
 from zipfile import ZipFile
 
-with ZipFile('files.zip') as zip :		# open 'files.zip' and save its path to 'zip', then close it afther the followings are finished
+with ZipFile('files.zip') as zip :		# open 'files.zip' and link it to 'zip', then close it after the followings are finished
 	print(zip.namelist())	# get a list of file_names of 'zip', and print it
 
 	info = zip.getinfo('ecommerce/__init__.py')	# get info of 'ecommerce/__init__.py' of 'zip', and link it to 'info'
@@ -112,4 +112,19 @@ with ZipFile('files.zip') as zip :		# open 'files.zip' and save its path to 'zip
 	print(info.compress_size)	# get the compress_size of 'info', and print it
 	
 	zip.extractall('extract')	# extract all the files of 'zip' to path: extract
+```
+# Woring with CSV Files
+csv file: txt file for storing table information
+## create
+```python
+import csv
+
+with open('data.csv', 'w') as file : 	# create and open './data.csv', and link it to 'file', then close it after the fllowings are finished
+	writer = csv.writer(file)	# create a writer for 'file', link it to 'writer' (you can use writer to write data into certain file)
+	writer.writerow(['transactionid', 'product_id, product_number'])	# write a row into 'writer': ['transactionid', 'product_id, product_number]
+	writer.writerow([1000, 1, 5])
+	writer.writerow([1001, 2, 15])
+```
+## read
+```python
 ```
