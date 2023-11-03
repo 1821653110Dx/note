@@ -127,4 +127,40 @@ with open('data.csv', 'w') as file : 	# create and open './data.csv', and link i
 ```
 ## read
 ```python
+import csv
+
+with open('data.csv') as file : 	# open 'data.csv' and link it to 'file', then close it after the followings are finished
+	reader = csv.reader(file)	# create a reader and read data of 'file' into the reader, and link the reader to 'reader'()
+	# print(list(reader))	# convert the data of 'reader' into a list, and print it;  this code can't be used simultaneously with the following, because objects to print is all from 'reader': a reader object
+
+	for row in reader :	# for every item(be reffered to as 'row') in 'reader' 
+		print(row)	# print it
+```
+
+# Working with JSON Files
+## write
+```python
+import json
+from pathlib import Path
+
+movies = [
+		{'id':1, 'title':'Terminator', 'year':1989},
+		{'id':2, 'title':'Kindergarten Cop', 'year':1993}
+]
+
+data = json.dumps(movies)	# convert 'movies' to strings represented in JSON, link it to 'data'
+Path('movies,json').write_text(data)	# create './movies.json' and write txt of 'data' into it
+```
+## read
+```python
+import json
+from pathlib import Path
+
+data = Path('movies,json').read_text()	# read text of 'movies.json' and save it to 'data'
+
+movies = json.loads(data)	# convert 'data' into Python object, and save it to 'movies'
+
+print(movies)
+print(movies[0])
+print(movies[0]['title'])	# get the key value of 'title' of item 0 of 'movies', then print it
 ```
