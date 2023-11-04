@@ -164,3 +164,7 @@ print(movies)
 print(movies[0])
 print(movies[0]['title'])	# get the key value of 'title' of item 0 of 'movies', then print it
 ```
+
+# Working with a SQLite Database
+
+
