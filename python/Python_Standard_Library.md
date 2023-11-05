@@ -166,5 +166,62 @@ print(movies[0]['title'])	# get the key value of 'title' of item 0 of 'movies', 
 ```
 
 # Working with a SQLite Database
+```python
+import sqlite3
+import json
+from pathlib import Path
 
+with sqlite3.connect('db.sqlite3') as conn :	# create and connect the database: db.sqlite, and save it to 'conn', then close it after the followings are finished
+	command = 'SELECT * FROM Movies'	# cmd to execute: retrieve all the data from a database table called: Movies, save it to 'command'
+	cursor = conn.execute(command)			# execute the cmd saved in 'command', save the retunred cursor into 'cursor' ; what is cursor? cursor moving line by line in retrieved data
 
+	for row in cursor	# for each row(be reffered to as 'row') in 'cursor'
+		print(row)	# print it
+	
+	# movies = cursor.fetchall()	# fetch all the data in cursor 'cursor', save it to 'movies' ; it's can't be simultanousely with the previouse code block
+	# print(movies)
+```
+# Working with Timestamps
+```python
+import time
+
+def send_emails() :
+	for i in range(1000) :
+		pass
+	
+start  = time.time()	# get the current timestamp: send_emails, save it into 'start'
+send_emails()
+end = time.time()	# get the timestamp when finishing the function, save it into 'end'
+duration = end - start 	# get the timestamp used for executing the function, save it into 'duration'
+print(duration)
+```
+# Woring with DateTimes
+```python
+from datetime import datetime
+import time 
+
+dt = datetime(2018, 1, 1)	# get the datetime of (2018, 1, 1), save it into dt
+dt1 = datetime.now()	# get the current datetime. save it into dt1
+dt2 = datetime.strptime('2018/01/01', '%Y/%m/%d')	# convert string '2018/01/01' into datetime_object according to format '%T/%m/%d', save it into dt2
+dt3 = datetime.fromtimestamp(time.time())	# get the current timestamp, convert it into datetime_object, save it into dt3
+
+print(dt3)
+print(f'{dt.year}/{dt.month}')	# print: {year of 'dt'}/{month of 'dt'}, which is formated '{dt.year}/{dt.month}'
+print(dt.strftime('%Y/%m'))	# convert '%Y/%m' of 'dt' into string, and print it
+print(dt > dt1)
+```
+
+# Working with Time Deltas
+```python
+from datetime import datetime, timedelta
+
+dt1 = datetime(2018, 1, 1) + timedelta(days=1, seconds=1000)	# dt1 = 2018/1/1 add '1 day and 1000 seconds'
+dt2 = datetime.now()
+duration = dt2 - dt1
+
+print(dt1)
+print(duration)
+print('days',duration.days)	# print: str(days)\ {days of 'duration'}
+print('seconds',duration.seconds)
+print('total_seconds', duration.total_seconds())
+```
