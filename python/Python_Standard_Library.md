@@ -225,3 +225,109 @@ print('days',duration.days)	# print: str(days)\ {days of 'duration'}
 print('seconds',duration.seconds)
 print('total_seconds', duration.total_seconds())
 ```
+# Generating Random Values
+```python
+import random
+import string
+
+print(random.random())	# generate a random value, and print it
+print(random.randint(1, 10))	# generate a random int in [1,10), and print it
+print(random.choice([1,2,3,4]))	# get an items randomly from [1,2,3,4], and print it
+print(random.choices([1,2,3,4],k=2))	# get 2 items randomly from [1,2,3,4], and print them
+print(random.choices('abcdefghi', k=4))	# get 4 itmes form str 'abcdefghi', and print then
+print(''.join(random.choices('abcdefghi', k=4)))	# get 4 items form str 'abcdefghi', and join them using '' as a seperator, and print it 
+print(','.join(random.choices('abcdefghi', k=4)))	# get 4 items form str 'abcdefghi', and join them using ',' as a seperator, and print it 
+
+print(string.ascii_letters)	# get all_the_ascii_letters, and print it
+print(string.digits)	# get all the digits, and print it
+
+print(''.join(random.choices((string.ascii_letters + string.digits),k=4)))	# generate all_the_ascii_letters and all_the_digits, get 4 items randomly from (ascii_letters + all_the_digits), and join them using '' as a seperator, and print it
+
+numbers = [1,2,3,4]
+random.shuffle(numbers)	# shuffle the value of 'numbers', and overwrite 'numbers' with them
+print(numbers)
+
+```
+# Opening the Browser
+```python
+import webbrowser
+
+print('Deployment completed')
+
+webbrowser.open('http://google.com')	# open 'http:google.com' with local webbrowser
+```
+# Sending Emails
+```python
+from email.mime.multipart import MIMEMultipart
+from email.mime.text import MIMEText
+from email.mime.image import MIMEImage
+from pathlib import Path
+from smtplib
+
+message = MIMEMultipart() # create a MIMEMultipart_object, and save it in 'message'
+
+message['from']	= 'Freather Ben'	# the email is from 'Freather Ben'
+message['to'] = 'testuser@test.com'		# the email will be sent to 'testuser@codewithfreather.com'
+message['subject'] = 'This is a test'	# the name(subject) of email is 'This is a test'
+message.attach(MIMEText('Body','plain'))	# the content(body) of the email is 'Body', type=PlainText
+message.attach(MIMEImage(Path('mosh.png').read_bytes()))		# img in email: ./mosh.png
+
+with smtplib.SMTP(host='smtp.gmail.com', port=587) as smtp	# open SMTP: host='smtp.gmail.com', port=587, and close it after sending the email
+	smtp.ehlo()
+	smtp.starttls()
+	smtp.login('my mailbox address', 'passwd')
+	smtp.send_message(message)
+	print('Sent')
+
+```
+# Working with Templates
+```python
+from email.mime.multipart import MIMEMultipart
+from email.mime.text import MIMEText
+from email.mime.image import MIMEImage
+from pathlib import Path
+from string import Template
+from smtplib
+
+template = Template(Path('template.html').read_text)	# read a template: ./template.html, save the data into 'template'
+
+message = MIMEMultipart() 
+message['from']	= 'Freather Ben'
+message['to'] = 'testuser@test.com'
+message['subject'] = 'This is a test'
+body = template.substitude(name='John')	# substitue $name with str 'John' in data of 'template', save the results to 'body'
+message.attach(MIMEText(body,'html'))	# the content(body) of the email is the data of 'body', type=html
+message.attach(MIMEImage(Path('mosh.png').read_bytes()))
+
+with smtplib.SMTP(host='smtp.gmail.com', port=587) as smtp	
+	smtp.ehlo()
+	smtp.starttls()
+	smtp.login('my mailbox address', 'passwd')
+	smtp.send_message(message)
+	print('Sent')
+
+```
+
+# Command-line Arguments
+```python
+import sys
+
+if len(sys.argv) == 1 :		# If the length of argument in the terminal_cmd == 1, then
+	print('USAGE: python3 app.py <passwd>')
+else:	# Otherwise,
+	passwd = sys.argv[1]	# get the argument at position 1 from the terminal_cmd, save it to 'passwd'
+	print('Passwd', passwd)
+```
+
+# Running External cmd
+```python
+import subprocess 
+
+try :	# try the folowing
+	CMD  = subprocess.run(['ls', '-l'], capture_output=True)	# run the external cmd: ls -l, don't output message on the terminal. save the cmd to 'CMD'
+	print('stdout', CMD.stdout)	# print: stdout\ {value of CMD.stdout} ;CMD.stdout = stdout of the cmd of 'CMD'
+
+	CMD1 = subprocess.run(['python3', 'other.py'], check=True)	# run the external cmd: python3 other.py, check whether the cmd is correctly execueted, if not, raise an exception. save the cmd to 'CMD1'
+except subprocess.CalledProcessError as ex:	# If raised exception, type of which is subprocess.CalledProcessError, save the exception to 'ex', run the following
+	print(ex)
+```
