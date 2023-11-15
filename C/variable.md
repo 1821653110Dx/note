@@ -1,3 +1,21 @@
+# type
+- char
+- int
+- float
+	- 23 decimal places
+- double
+	- 52 decimal places
+- void
+## instances
+```c
+int x = 10 ;	/* def 'x': 10, int */
+float pi = 3.14 ; /* def 'pi': 3.14, float */
+char ch = 'A'; /* def 'ch': 'A', char */
+```
+# extern
+external variables can't be invoked directly, while global variables can
+## instances
+```c
 /* include */
 # include <stdio.h>				/* include stdio.h */
 
@@ -27,3 +45,4 @@ int main()					/* def main(), return.dty = int : */
 
 	return 0 ;				/* exit */
 }
+```
