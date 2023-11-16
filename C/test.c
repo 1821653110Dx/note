@@ -1,29 +1,19 @@
 /* include */
-# include <stdio.h>				/* include stdio.h */
-
-/* def external variables */
-int x ;						/* def 'x': $sym, int */
-int y ;						/* def 'y': $sym, int */
-
-/* def funtion */
-int addtwondum()				/* def function 'addtwondum()', return.dty = int :*/
-{
-	extern int x ;				/* invoke external variable: x */
-	extern int y ;				/* invoke external variable: y */
-	x = 1 ;					/* x = 1 */
-	y = 2 ;					/* y = 2 */
-	
-	return x+y ;				/* return {x+y} */
-}
+#include <stdio.h>	/* include stdio.h */
 
 /* def main function */
-int main()					/* def main(), return.dty = int : */
+int main()	/* def main(), return.dty = int : */
 {
-	int result ;				/* def result: $sym, int */
+	const int LENGTH = 10 ;	/* def LENGTH: 10, int, const */
+	const int WIDTH = 5 ;	/* def WIDTH: 5, int, const */
+	const char NEWLINE = '\n' ;	/* def NEWLINE: '\n', char, const */
+	int area ;		/* def area: $sym, int */	
 
-	result = addtwondum() ;			/* invoke function 'addtwondum()', save the value to 'result' */
+	area = LENGTH * WIDTH ;		/* return {LENGTH * WIDTH}, save the data to 'area' */
+	
+	printf("value of area : %d", area) ;	/* print "value of area : {area}" [area = double] */
+	printf("%c",NEWLINE) ;	/* print "{NEWLINE}" [NEWLINE = char] */
 
-	printf("result is %d", result) ;	/* print "result is {result}" [result = double]*/
-
-	return 0 ;				/* exit */
+	return 0 ;	/* exit */
 }
+
