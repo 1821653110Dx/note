@@ -4,14 +4,24 @@
 /* def main */
 int main()	/* def main */
 {
-	int a = 10 ;	/* def a = 10, int, var, autodel */
+	int i, j ; 	/* def i, j = null, int, var, autodel */
 
-	do	/*do cmd in {} when meeting the conditions */
+	i = 1 ;		/* begin with the row {1:stored in 'i'}, */
+
+	do	 /* do cmd in {} */
 	{
-		printf("the value of a is %d\n",a) ;	/* print "the value of a is {a}\n"{a:decimal} */
+		j = 1 ;		/* begin with the col 1:stored in 'j' */
 
-		a = a + 1 ;	/* rewrite 'a' with {a+1} */
-	}while(a <= 20); /* condition: 'a' < 20, not run break and continue */
+		do	/* do cmd in {} */
+		{	
+			printf("*") ;	/* print "*" */
+			j++ ;	/* next col */
+		}while(j <= i) ; 	/* while {the serial num of current col} <= {the serial num of current row}, continue to do */
+
+		i++ ;		/* next row */
+
+		printf("\n") ;		/* print "\n" */
+	}while(i <= 5) ;	/* while {the serial num of current row} <= 5, continue to do */
 
 	return 0 ;	/* exit */
 }
