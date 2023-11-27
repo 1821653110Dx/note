@@ -51,7 +51,7 @@ int main()	/* def main */
 		printf("the value of a is %d\n",a) ;	/* print "the value of a is {a}\n"{a:decimal} */
 
 		a = a + 1 ;	/* rewrite 'a' with {a+1} */
-	}while(a <= 20); /* while 'a' < 20, continue to do */
+	}while(a <= 20); /* while 'a' < 20, continue to do. Otherwise, next step */
 
 	return 0 ;	/* exit */
 }
@@ -92,7 +92,7 @@ int main()	/* def main */
 	int i, j ;	/* def i, j = null, int, var, autodel */	
 	
 	i = 1 ;		/*begin with row {1 : stored in i}*/
-	while(i <= 5)		/* while {the serial number of current row} <= 5 */
+	while(i <= 5)		/* while {the serial number of current row} <= 5, do internal cmd. Otherwise, next step  */
 	{
 		j = 1 ;		/* begin with the col {1 : stored in j}, */
 		while(j <= i)		/* while {the serial number of current col} <= {the serial numer of current row} */
@@ -135,7 +135,7 @@ int main()	/* def main */
 		i++ ;		/* next row */
 
 		printf("\n") ;		/* print "\n" */
-	}while(i <= 5) ;	/* while {the serial num of current row} <= 5, continue to do */
+	}while(i <= 5) ;	/* while {the serial num of current row} <= 5, continue to do. Otherwise, next step */
 
 	return 0 ;	/* exit */
 }
