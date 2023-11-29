@@ -46,12 +46,12 @@ int main()	/* def main */
 {
 	int a = 10 ;	/* def a = 10, int, var, autodel */
 
-	do	/* do cmd in {} */
+	do	/* do internal cmd */
 	{
 		printf("the value of a is %d\n",a) ;	/* print "the value of a is {a}\n"{a:decimal} */
 
 		a = a + 1 ;	/* rewrite 'a' with {a+1} */
-	}while(a <= 20); /* while 'a' < 20, continue to do. Otherwise, next step */
+	}while(a <= 20); /* while 'a' < 20, continue. Otherwise, next step */
 
 	return 0 ;	/* exit */
 }
@@ -122,23 +122,107 @@ int main()	/* def main */
 
 	i = 1 ;		/* begin with the row {1:stored in 'i'}, */
 
-	do	 /* do cmd in {} */
+	do	 /* do internal cmd */
 	{
 		j = 1 ;		/* begin with the col {1:stored in 'j'} */
 
-		do	/* do cmd in {} */
+		do	/* do internal cmd */
 		{	
 			printf("*") ;	/* print "*" */
 			j++ ;	/* next col */
-		}while(j <= i) ; 	/* while {the serial num of current col} <= {the serial num of current row}, continue to do */
+		}while(j <= i) ; 	/* while {the serial num of current col} <= {the serial num of current row}, continue */
 
 		i++ ;		/* next row */
 
 		printf("\n") ;		/* print "\n" */
-	}while(i <= 5) ;	/* while {the serial num of current row} <= 5, continue to do. Otherwise, next step */
+	}while(i <= 5) ;	/* while {the serial num of current row} <= 5, continue. Otherwise, next step */
 
 	return 0 ;	/* exit */
 }
 
 ```
 # loop control statement
+## break
+```c
+// include
+# include <stdio.h>	// include stdio.h
+
+// def main
+int main()	// def main
+{
+	int a = 10 ;	// def a = 10, int, var, autodel
+
+	while( a < 20 )	// while {a} < 20, do internal cmd. Otherwise, next step
+	{
+		printf("the value of a is %d\n",a) ;		// print "the value of a is {a}\n" {a:%d}
+		
+		a++ ;	// {a} += 1
+
+		if ( a > 15 )	// if {a} > 15
+		{
+			break;	// break the loop at this lv
+		}
+	}
+
+	// exit
+	return 0 ;
+}
+```
+
+## continue
+```c
+// include
+#include <stdio.h>	// include stdio.h
+
+// def main
+int main ()	// def main
+{
+	int a = 10 ;	// def a = 10, int, var, autodel
+
+	do // do internal cmd
+	{
+		if( a == 15 )	// if a == 15
+		{
+			a++ ;	// {a} += 1
+
+			continue ;	// next loop at this lv
+		}
+
+		printf("the value of a is %d\n",a) ;	// print "the value of a is {a}\n" {a:%d}
+
+		a++ ;	// {a} += 1
+	}while(a < 20);	// while {a} < 20, continue. Otherwise, next step
+
+	// exit
+	return 0 ;
+}
+```
+
+## goto
+```c
+// include
+# include <stdio.h>	// include
+
+// def main
+int main()	// def main
+{
+	int a = 10 ;	// def a = 10, int, var, autodel
+
+	LOOP: do	// do internal cmd.	label: LOOP
+	{
+		if ( a == 15 )	// if a == 15
+		{
+			a += 1 ;	// a += 1
+
+			goto LOOP ;	// goto LOOP
+		}
+
+		printf("the value of a is %d\n",a) ;	// print "the value of a is {a}\n"{a:%d}
+		
+		a++ ;	// a += 1
+	}while(a < 20);	// while a < 20, continue. Otherwise, next step
+
+	return 0 ;	// exit
+}
+```
+
