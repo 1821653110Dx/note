@@ -1,3 +1,4 @@
+```c
 # include <stdio.h>	// import modules: stdio,h
 
 // declare func to call: max
@@ -29,3 +30,4 @@ int max(int num1, int num2)// def func max: return = int, argument = [num1,num2]
 	return result ;	// return {result}	
 }
 
+```
