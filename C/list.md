@@ -1,8 +1,7 @@
 # def
 ```c
-double balance[5] = {1000.0, 2.0, 3.4, 7.0, 50.0} ;	// def balance = {1000.0, 2.0, 3.4, 7.0, 50.0}, double, ls[5], autodel	// ls[5] : a list whose size = 5
+double balance[] = {1000.0, 2.0, 3.4, 7.0, 50.0} ;	// def balance = {1000.0, 2.0, 3.4, 7.0, 50.0}, double, ls[], autodel	// ls[] : a non-empty list
 double balance = {} ;	// def balance = {}, double, ls[5], autodel
-double balance[] = {1000.0, 2.0, 3.4, 7.0, 50.0} ;	//
 double salary = balance[4] ;	// def salary = balance[4], double, var, autodel
 ``` 
 # fetch items
@@ -12,7 +11,7 @@ double salary = balance[4] ;	// def salary = balance[4], double, var, autodel
 
 int main()	// def main
 {
-	int n[10] ;	// def n = {}, int, ls[10], autodel
+	int n[10] ;	// def n = {}, int, ls[10], autodel	// ls[10] = an empty list whose size = 10
 	int i,j ;	// def i,j = null, int, var, autodel
 	
 	/* def n[0] -> n[9] */
@@ -26,6 +25,39 @@ int main()	// def main
 	{
 		printf("Element[%d] = %d\n",j,n[j]) ;	// print "Element[{j}] = {n[j]}\n"{n[j]:%d}
 	}
+
+	return 0 ;	// exit
+}
+```
+# fetch length
+## without macro def
+```c
+/* import modules: stdio.h */
+#include<stdio.h>
+
+int main()	// def main
+{
+	int array[] = {1, 2, 3, 4, 5} ;		// def array = {1, 2, 3, 4, 5}, int, ls[], autodel
+	int length = sizeof(array)/sizeof(array[0]) ;	// def length = {the length of 'array[]': sizeof(array)/sizeof(a:wrray[0]) }, int, var, autodel
+	
+	printf("the length of the list = %d\n",length) ;	// print "the length of the list = {length}\n"{length:%d}
+
+	return 0 ;	// exit
+}
+```
+## with macro def
+```c
+/* import modules: stdio.h */
+#include<stdio.h>
+
+#define LENGTH(array) sizeof(array) / sizeof(array[0])	// macro_def LENGTH(array) : sizeof(array) / sizeof(array[0])
+
+int main()	// def main
+{
+	int array[] = {1, 2, 3, 4, 5} ;		// def array : {1, 2, 3, 4, 5}, int, ls[], autodel
+	int length = LENGTH(array) ;	// def length : {the length of 'array' : macro 'LENGTH(array)'}, int, var, autodel
+
+	printf("the length of the array = %d\n",length) ;	// print "the length of the array = {length}\n"{array:%d}
 
 	return 0 ;	// exit
 }
