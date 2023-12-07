@@ -62,3 +62,32 @@ int main()	// def main
 	return 0 ;	// exit
 }
 ```
+
+## fetch the address
+```c
+int myArray[5] = {10, 20, 30, 40, 50} ;
+int* ptr = myArray ;	// def ptr : {the address of 'myArray'}, int_ptr, var, autodel
+```
+
+## fetch item
+```c
+/* import modules: stdio */
+#include<stdio.h>
+
+void printArray(int arry[], int size)	// def func printArray : return = void, argument = [arry[], size], default_value = [null, null], type = [int, int]
+{
+	for (int i = 0 ; i < size ; i++)	// def i : 0, int, var, autodel ; i < {size} and i = i + 1. do the inernal for each i	// set col_scope : {size}
+	{
+		printf("%d ",arry[i]) ;		// print"{arry[i]} "{%d}	// print all items of the scope, delimeter = space
+	}
+}
+
+int main()	// def main
+{
+	int myArray[] = {10, 20, 30, 40, 50} ;	// def myArray : {10, 20, 30 40, 50}, int, ls[], autodel
+
+	printArray(myArray, 5) ;	// {print every item of 'myArray': call printArray(myArray, 5)}
+	
+	return 0 ;	// exit
+}
+```
