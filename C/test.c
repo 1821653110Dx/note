@@ -1,17 +1,32 @@
-/* import modules : stdio*/
-#include<stdio.h>
-int main()	// def main
-{
-	int a[5][2] = { {0, 0}, {1, 2}, {2, 4}, {3, 6}, {4, 8} } ;	// def a = { {0, 0}, {1, 2}, {2, 4}, {3, 6}, {4, 8} }, int, array[5][2], autodel	// array[5][2] : an array of 5 row and 2 col
-	int i,j ;	// def i,j = null, int, var, autodel
+/* import modules: stdio.h */
 
-	for ( i = 0 ; i < 5 ; i++)	// set row scope : [0, 4], current row is represented by 'i'
+/* decalre func to call: getAverage */
+
+
+// def main
+{
+	// def balance : {1000, 2, 3, 17, 50}, int, ls[], autodel
+	// def avg : null, double, var, autodel
+
+	// {get average value of every item in 'balance': call getAverage( balance, 5 )}, save it to 'avg'
+	
+	// print"average value : {avg}"{avg:%f}
+
+	// exit
+}
+
+// def func getAverage : return = double, argument = [arry[], size], default_value = [null, null], type = [int, int]
+{
+	// def i : null, int, var, autodel	// autodel : current quantity's scope is within the current func and will be autodel
+	// def average : null, int, var, autodel
+	// def sum : 0, int, var, autodel
+
+	// set {col : i} scope : [0, size)
 	{
-		for ( j = 0 ; j < 2 ; j++ )	// set {ol scope : [0, 1], current col is represented by 'j'
-		{
-			printf("a[%d][%d] : %d\n",i,j,a[i][j]) ;	// do the following for every item in (row, col) : print"a[{i}{j} : {a[i][j]}\n"{i,j,a[i][j]:%d}
-		}
+		// save SUM(all items in [1, col]) to 'sum'
 	}
 
-	return 0 ; // exit 
+	// save {sum / size} to 'average'
+
+	// return {average}
 }
