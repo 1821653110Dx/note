@@ -54,3 +54,41 @@ double getAverage(int arry[], int size)	// def func getAverage : return = double
 	return average ;	// return {average}
 }
 ```
+# return arry from func
+```c
+/* imoport modules: stdio.h stdlib.h time.h*/
+#include <stdio.h>
+#include<stdlib.h>
+#include<time.h>
+
+int* getRandom()	// def func getRandom  : return = pointer_int, argument = null
+{
+	static int r[10] ;	// def_local r : {}, int, ls[10], static(global to current file)
+	int i ;		// def_local i : null, int, var, autodel
+
+	srand( (unsigned)time(NULL)) ;	// set random_seed to sys_time
+
+	for (i = 0 ; i < 10 ; i++)	// i in [0, 10), difference = 1. do the internal for each 'i'
+	{
+		r[i] = rand() ;		// get a random in [0, RAND_MAX defined in stdlib.h) ; save it to 'r[i]'
+		printf("r[%d] = %d\n",i,r[i]) ;		// print"r[{i}] = {r[i]}\n"{i, r[i]:%d}
+	}
+	
+	return r ;	// return {r}
+}
+
+int main()	// def main
+{
+	int* p ;	// def p : null, pointer_int, var, autodel
+	int i ;		// def i : null, int, var, autodel
+
+	p = getRandom() ;	// {get a random number: call getRandom()} ; save the return to 'p'
+	
+	for (i = 0 ; i < 10 ; i++)		// i in [0, 10), difference = 1. do the internal for each 'i'
+	{	
+		printf("*(p + %d) : %d\n", i, *(p + i)) ;	// print"*(p + {i}) : {*(p + i)}\n"{i, *(p + i) : %d}
+	}
+
+	return 0 ;	// exit
+}
+```
