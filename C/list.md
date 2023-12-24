@@ -1,4 +1,4 @@
-# multi-dim array
+## multi-dim array
 ```c
 /* import modules : stdio*/
 #include<stdio.h>
@@ -18,7 +18,7 @@ int main()	// def main
 	return 0 ; // exit 
 }
 ```
-# transit array to func
+## transit array to func
 ```c
 /* import modules: stdio.h */
 #include<stdio.h>
@@ -54,7 +54,7 @@ double getAverage(int arry[], int size)	// def func getAverage : return = double
 	return average ;	// return {average}
 }
 ```
-# return arry from func
+## return arry from func
 ```c
 /* imoport modules: stdio.h stdlib.h time.h*/
 #include <stdio.h>
@@ -93,7 +93,7 @@ int main()	// def main
 }
 
 ```
-# ptr toward arry
+## ptr toward arry
 ```c
 /* import modules : stdio.h */
 #include <stdio.h>
@@ -126,3 +126,43 @@ int main()	// def main
 }
 
 ```
+# dynamic array
+need allocate mem manually
+```c
+/* import modules: stdio.h, stdlib.h */
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()	// def main
+{
+	/* def dynamic_array : dynamicArray */
+	int size = 5 ;		// def the size of 'dynamic_Array': size, 5
+	int* dynamicArray = (int*)malloc(size * sizeof(int)) ;	// def the mem 'dynamicArray uses': default( here is default for you've defined its size )
+	
+	if ( dynamicArray == NULL )// if failed to allocation mem for 'dynamicArray'
+	{
+		printf("Memory allocation falied.\n") ;		// print"Memory allocation failed.\n"
+		return 1 ;	// exit		// exit after encountering errors : return 1
+	}
+	
+	/* user inputs elements in a line */
+	printf("Enter %d elements: ", size) ;	// print"Enter {size} elements: "{size:%d}	// prompt for inputing
+		/* let user input, save the inputs to 'dynamicArray' */
+	for (int i = 0 ; i < size ; i++)
+	{
+		scanf("%d", &dynamicArray[i]) ;
+	}
+
+	printf("Dynamic Array: ") ;	// print"Dynamic Array: "
+	/* print all items of 'dynamic_array' */
+
+	// relieve mem 'dynamicArray' uses
+	for (int i = 0 ; i < size ; i++)
+	{
+		printf("%d ", dynamicArray[i]) ;
+	}
+
+	return 0 ;	// exit
+}
+```
+
