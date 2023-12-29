@@ -1,3 +1,7 @@
+# definition
+mem addr
+# basic use
+```c
 /* import modules: stdio.h */
 #include<stdio.h>
 
@@ -19,3 +23,4 @@ int main()	// def main
 
 	return 0 ;	// exit
 }
+```
