@@ -19,7 +19,7 @@ int main()	// def main
 	printf("the addr saved in 'ip' : %p\n", ip) ;	// print"the addr saved in 'ip' : {ip}\n"{~:%p}
 	
 	/* print value saved at the addr saved in 'ip' */
-	printf("value saved at the addr saved in ip : %d\n", *ip) ;	// print"value saved at the addr saved in ip : {*ip}\n"{~:%d}
+	printf("value saved at the addr saved in ip: %d\n", *ip) ;	// print"value saved at the addr saved in ip : {*ip}\n"{~:%d}
 
 	return 0 ;	// exit
 }
@@ -38,7 +38,7 @@ int main()	// def main
 	int i ;	// def i : null, int, var, auto
 	int* ptr = NULL ;	// def ptr : null, int*, var, auto
 
-	ptr = var ;	// save {addr of all items of 'var'} to 'ptr'
+	ptr = var ;	// save {addr of 1st items of 'var'} to 'ptr'	OR	// 'ptr' points to {var[0]}
 	
 	/* print every item of 'var' and its addr */
 	for (i = 0 ; i < MAX ; i ++)	// {index of var:i} in [0, MAX). for each i
@@ -65,7 +65,7 @@ int main()	// def main
 	int i ;	// def i : null, int, var, auto
 	int* ptr = NULL ;	// def ptr : null, int*, var, auto
 
-	ptr = &var[MAX-1] ;	// save {addr of last item of 'var'} to 'ptr'
+	ptr = &var[MAX-1] ;	// save {addr of last item of 'var'} to 'ptr'	OR	// 'ptr' points to var[0]
 
 	/* print every item of 'var' and its addr */
 	for (i = MAX - 1; i >= 0 ; i--)		// {index of var:i) from {MAX-1} to 0(include). for each i
@@ -78,4 +78,8 @@ int main()	// def main
 
 	return 0 ;	// exit
 }
+```
+
+## compare
+```c
 ```
